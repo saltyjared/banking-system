@@ -26,6 +26,14 @@ class BankingSystem(ABC):
         `None`.
         """
         # default implementation
+              
+        if account_id not in self.accounts:
+          return None
+        else: 
+          self.accounts[account_id] += amount # Add to balances in account id
+          return self.accounts[account_id]
+
+
         return None
 
     def transfer(self, timestamp: int, source_account_id: str, target_account_id: str, amount: int) -> int | None:
