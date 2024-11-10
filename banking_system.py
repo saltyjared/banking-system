@@ -39,18 +39,29 @@ class BankingSystem(ABC):
     def transfer(self, timestamp: int, source_account_id: str, target_account_id: str, amount: int) -> int | None:
         """
         Should transfer the given amount of money from account
-        `source_account_id` to account `target_account_id`.
+        `source_account_id` to account `target_account_id`. 
         Returns the balance of `source_account_id` if the transfer
         was successful or `None` otherwise.
           * Returns `None` if `source_account_id` or
           `target_account_id` doesn't exist.
-          * Returns `None` if `source_account_id` and
+          * Returns `None` if `source_account_id` and 
           `target_account_id` are the same.
-          * Returns `None` if account `source_account_id` has
+          * Returns `None` if account `source_account_id` has 
           insufficient funds to perform the transfer.
         """
+
+        # self.accounts = {} -> key: account id / value: funds
+
         # default implementation
-        return None
+        if not source_account_id in self.accounts or not target_account_id in self.accounts \
+            or source_account_id == target_account_id or self.accounts[source_account_id] < amount:
+            return None
+
+        self.accounts[target_account_id] += amount
+        self.accounts[source_account_id] -= amount
+
+        return self.accounts[source_account_id]
+
 
     def top_spenders(self, timestamp: int, n: int) -> list[str]:
         """
