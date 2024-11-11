@@ -90,16 +90,15 @@ class BankingSystemImpl(BankingSystem):
         """
         outgoing_totals = {}
 
-        
-        for account_id in self.transactions: 
-            outgoing_totals = 0 
-            for each_transaction in self.transactions[account_id]:
-                type_of_transaction, amount, timestamp = each_transaction 
-                if type_of_transaction == "Transfer" or "Pay" or "Withdraw": ### Check other transactions to add here  
-                    outgoing_totals += amount
-            outgoing_totals[account_id] = outgoing_totals
+        for account_id, transactions in self.transactions.items():
+            outgoing_total = 0
+            for occurence in transactions:
+                type_of_transaction, amount, timestamp = occurence[0], occurence[1], occurence[2]
+                if type_of_transaction in ["Transfer", "Pay" ,"Withdraw"]: ### Check other transactions to add here  
+                    outgoing_total += amount
+            outgoing_totals[account_id] = outgoing_total
 
-        sorted_accounts = sorted(outgoing_totals.items(), keys= lambda x:(-x[1], x[0]))
-        output = [f"{account_id}{total}" for account_id, total in sorted_accounts[:n]]
+        sorted_accounts = sorted(outgoing_totals.items(), key= lambda x:(-x[1], x[0]))
+        output = [f"{account_id}({total})" for account_id, total in sorted_accounts[:n]]
         return output            
 
