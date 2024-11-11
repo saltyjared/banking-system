@@ -8,7 +8,18 @@ class BankingSystemImpl(BankingSystem):
         self.accounts = {}
 
         # implement a dictionary to track the transactions that occur 
-        self.transactions = {}
+        self.transactions = {} # need to make a dictionary of a list of tuples {account number : [(type_of_transaction, amount_transferred, timestamp)]}
+
+    # Level 1 
+    def create_account(self, timestamp, account_id):
+        if account_id in self.accounts:
+            return False
+        self.accounts[account_id] = 0
+        self.transactions[account_id] = [] 
+        return True
+
+    def record_transaction(self, account_id ,type_of_transaction, amount, timestamp ) :
+      self.transactions[account_id].append((type_of_transaction, amount, timestamp))
 
     def deposit(self, timestamp: int, account_id: str, amount: int) -> int | None:
         """
@@ -20,13 +31,16 @@ class BankingSystemImpl(BankingSystem):
         `None`.
         """
         # default implementation
-              
+        type_of_transaction = 'Deposit'
         if account_id not in self.accounts:
           return None
-        else: 
-          self.accounts[account_id] += amount # Add to balances in account id
-          return self.accounts[account_id]
-        
+        else:
+            self.record_transaction(account_id, type_of_transaction, amount, timestamp)
+            #self.transactions[account_id].append((type_of_transaction, amount, timestamp))
+            self.accounts[account_id] += amount # Add to balances in account id          
+            return self.accounts[account_id]
+
+    # Level 2         
     def transfer(self, timestamp: int, source_account_id: str, target_account_id: str, amount: int) -> int | None:
         """
         Should transfer the given amount of money from account
@@ -51,16 +65,14 @@ class BankingSystemImpl(BankingSystem):
         self.accounts[target_account_id] += amount
         self.accounts[source_account_id] -= amount
 
+        type_of_transaction = "Transfer"
+        self.record_transaction(source_account_id, type_of_transaction, amount, timestamp)
+        #self.transactions[source_account_id].append((type_of_transaction, amount, timestamp))
         return self.accounts[source_account_id]
 
 
     # TODO: implement interface methods here
 
-    def create_account(self, timestamp, account_id):
-        if account_id in self.accounts:
-            return False
-        self.accounts[account_id] = 0
-        return True
 
     def top_spenders(self, timestamp: int, n: int) -> list[str]:
         """
