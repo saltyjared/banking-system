@@ -88,22 +88,18 @@ class BankingSystemImpl(BankingSystem):
         output: list[str]
             list of n strings with the top id's and transaction sums
         """
-        output = []
         outgoing_totals = {}
 
-        # check if there are less than n accounts
-        if len(self.accounts) < n: 
-            for id in self.accounts.keys():
+        
+        for account_id in self.transactions: 
+            outgoing_totals = 0 
+            for each_transaction in self.transactions[account_id]:
+                type_of_transaction, amount, timestamp = each_transaction 
+                if type_of_transaction == "Transfer" or "Pay" or "Withdraw": ### Check other transactions to add here  
+                    outgoing_totals += amount
+            outgoing_totals[account_id] = outgoing_totals
 
-                # assuming I have a list of transactions 
-                outgoing_totals[id] = sum(self.transactions[id])
-                output.append(f"{id}({outgoing_totals[id]})")
-        else:
-            for id in self.accounts.keys():
+        sorted_accounts = sorted(outgoing_totals.items(), keys= lambda x:(-x[1], x[0]))
+        output = [f"{account_id}{total}" for account_id, total in sorted_accounts[:n]]
+        return output            
 
-                # assuming I have a list of transactions
-                outgoing_totals[id] = sum(self.transactions[id])
-            
-            sorted_accounts = sorted(outgoing_totals.items(), key = lambda x: (-x[1], x[0]))
-            output = [f"{account_id}({total})" for account_id, total in sorted_accounts[:n]]
-        return output
