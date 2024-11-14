@@ -26,14 +26,6 @@ class BankingSystem(ABC):
         `None`.
         """
         # default implementation
-              
-        if account_id not in self.accounts:
-          return None
-        else: 
-          self.accounts[account_id] += amount # Add to balances in account id
-          return self.accounts[account_id]
-
-
         return None
 
     def transfer(self, timestamp: int, source_account_id: str, target_account_id: str, amount: int) -> int | None:
@@ -49,18 +41,7 @@ class BankingSystem(ABC):
           * Returns `None` if account `source_account_id` has 
           insufficient funds to perform the transfer.
         """
-
-        # self.accounts = {} -> key: account id / value: funds
-
-        # default implementation
-        if not source_account_id in self.accounts or not target_account_id in self.accounts \
-            or source_account_id == target_account_id or self.accounts[source_account_id] < amount:
-            return None
-
-        self.accounts[target_account_id] += amount
-        self.accounts[source_account_id] -= amount
-
-        return self.accounts[source_account_id]
+        return None
 
 
     def top_spenders(self, timestamp: int, n: int) -> list[str]:
