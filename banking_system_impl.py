@@ -7,7 +7,7 @@ class BankingSystemImpl(BankingSystem):
 
     def __init__(self):
         # Encapsulate registered accounts in a dictionary with account IDs as keys and balances as values
-        self.accounts = {}
+        self.accounts = {} # consider: a tuple with (timestamp, balance) to aid in level 4
 
         # implement a dictionary to track the transactions that occur 
         self.transactions = {} # need to make a dictionary of a list of tuples {account number : [(type_of_transaction, amount_transferred, timestamp)]}
@@ -31,9 +31,18 @@ class BankingSystemImpl(BankingSystem):
             return False
         
         # Create new key in accounts and transactions dictionaries 
-        self.accounts[account_id] = 0
+        self.accounts[account_id] = [(timestamp, 0)]
         self.transactions[account_id] = [] 
         return True
+    
+    def update_balance(self, account_id: str, type_of_transaction: str, amount: int, timestamp: int):
+        prev_balance = self.accounts[account_id][-1][1]
+        if type_of_transaction == 'Deposit':
+            curr_balance = prev_balance + amount
+        else:
+            curr_balance = prev_balance - amount
+        self.accounts[account_id].append((timestamp, curr_balance))
+        return curr_balance
 
     def record_transaction(self, account_id: str, type_of_transaction: str, amount: int, timestamp: int) -> None:
         """
@@ -194,6 +203,30 @@ class BankingSystemImpl(BankingSystem):
                 self.record_transaction(account_id, 'Cashback', cashback, cashback_timestamp)
             # Delete entry in scheduled cashbacks to complete processing
             del self.scheduled_cashbacks[cashback_timestamp]
+
+    def get_balance(self, timestamp: int, account_id: str, time_at: int) -> int | None:
+        """
+        Should return the total amount of money in the account
+        `account_id` at the given timestamp `time_at`.
+        If the specified account did not exist at a given time
+        `time_at`, returns `None`.
+          * If queries have been processed at timestamp `time_at`,
+          `get_balance` must reflect the account balance **after** the
+          query has been processed.
+          * If the account was merged into another account, the merged
+          account should inherit its balance history.
+        """
+
+        # Note, I am not sure what is meant by the bullet point talking about query
+        # I also am unsure how we plan to implement an account merge, so I will hold off on that functionality
+
+        balance_updates = self.accounts[account_id]
+        for timestamp, balance in balance_updates:
+            if timestamp < time_at:
+                continue
+            else:
+                return balance
+        return None
     
     def get_payment_status(self, timestamp: int, account_id: str, payment: str) -> str | None:
         """
@@ -235,3 +268,4 @@ class BankingSystemImpl(BankingSystem):
             return "IN_PROGRESS"
         else:
             return "CASHBACK_RECEIVED"
+
