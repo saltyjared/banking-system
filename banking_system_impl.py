@@ -194,3 +194,44 @@ class BankingSystemImpl(BankingSystem):
                 self.record_transaction(account_id, 'Cashback', cashback, cashback_timestamp)
             # Delete entry in scheduled cashbacks to complete processing
             del self.scheduled_cashbacks[cashback_timestamp]
+    
+    def get_payment_status(self, timestamp: int, account_id: str, payment: str) -> str | None:
+        """
+        Should return the status of the payment transaction for the
+        given `payment`.
+        Specifically:
+          * Returns `None` if `account_id` doesn't exist.
+          * Returns `None` if the given `payment` doesn't exist for
+          the specified account.
+          * Returns `None` if the payment transaction was for an
+          account with a different identifier from `account_id`.
+          * Returns a string representing the payment status:
+          `"IN_PROGRESS"` or `"CASHBACK_RECEIVED"`.
+        """
+        # default implementation
+
+        # Check if account_id exists
+        if account_id not in self.accounts:
+          return None
+
+        payment_number = int(payment.replace('payment',''))
+        # Check if payment exists 
+
+        if payment > self.num_payments:
+            return None ## payment cannot exist if number of payments is greater than what is recorded
+        
+        exists = False
+
+        for type_of_transaction, amount_transferred, timestamp_here in self.transactions[account_id]:
+            if type_of_transaction == "Pay" and timestamp_here == timestamp:
+                exists = True
+                break
+
+        if not exists:
+            return None # payment does not exist
+        
+        cashback_due_time = timestamp + self.MILLISECONDS_IN_1_DAY
+        if timestamp < cashback_due_time:
+            return "IN_PROGRESS"
+        else:
+            return "CASHBACK_RECEIVED"
