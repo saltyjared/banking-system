@@ -6,11 +6,10 @@ class BankingSystemImpl(BankingSystem):
     MILLISECONDS_IN_1_DAY = 86400000
 
     def __init__(self):
-        # Encapsulate registered accounts in a dictionary with account IDs as keys and balances as values
-        self.accounts = {} # consider: a tuple with (timestamp, balance) to aid in level 4
-
-        # implement a dictionary to track the transactions that occur 
-        self.transactions = {} # need to make a dictionary of a list of tuples {account number : [(type_of_transaction, amount_transferred, timestamp)]}
+        # Encapsulate registered accounts in a dictionary with account IDs as keys and transaction history as values
+        # Transactions are recorded as a 4-element tuple: (timestamp, transaction_type, transaction_amt, balance)
+        # i.e. {account1 : [(1, 'Account Creation', 0, 0), (2, 'Deposit', 200, 200), (3, 'Pay', 50, 150)]}
+        self.accounts = {}
 
         # Encapsulate scheduled cashbacks in a dictionary with {timestamp : (account_id, cashback_amount)}
         self.scheduled_cashbacks = {}
@@ -31,8 +30,7 @@ class BankingSystemImpl(BankingSystem):
             return False
         
         # Create new key in accounts and transactions dictionaries 
-        self.accounts[account_id] = [(timestamp, 0)]
-        self.transactions[account_id] = [] 
+        self.accounts[account_id] = [(timestamp, 'Account Creation', 0, 0)] 
         return True
     
     def update_balance(self, account_id: str, type_of_transaction: str, amount: int, timestamp: int):
@@ -44,14 +42,6 @@ class BankingSystemImpl(BankingSystem):
         self.accounts[account_id].append((timestamp, curr_balance))
         return curr_balance
 
-    def record_transaction(self, account_id: str, type_of_transaction: str, amount: int, timestamp: int) -> None:
-        """
-        Record each transaction for an account in the form
-        of a tuple containing the transaction type, amount,
-        and time.
-        """
-        self.transactions[account_id].append((type_of_transaction, amount, timestamp))
-
     def deposit(self, timestamp: int, account_id: str, amount: int) -> int | None:
         """
         Should deposit the given `amount` of money to the specified
@@ -61,17 +51,19 @@ class BankingSystemImpl(BankingSystem):
         If the specified account doesn't exist, should return
         `None`.
         """
+        # Process any due cashbacks prior to deposit
         self.process_cashback(timestamp)
 
-        # default implementation
-        type_of_transaction = 'Deposit'
+        # Edge case: account does not exist in system
         if account_id not in self.accounts:
-          return None
-        else:
-            self.record_transaction(account_id, type_of_transaction, amount, timestamp)
-            #self.transactions[account_id].append((type_of_transaction, amount, timestamp))
-            self.accounts[account_id] += amount # Add to balances in account id          
-            return self.accounts[account_id]
+            return None
+        
+        # Add amount to account balance and update record
+        transaction_type = 'Deposit'
+        prev_balance = self.accounts[account_id][-1][3] # Access most recent tuple's balance
+        new_balance = prev_balance + amount
+        self.accounts[account_id].append((timestamp, transaction_type, amount, new_balance))     
+        return new_balance
           
     def transfer(self, timestamp: int, source_account_id: str, target_account_id: str, amount: int) -> int | None:
         """
@@ -86,23 +78,31 @@ class BankingSystemImpl(BankingSystem):
           * Returns `None` if account `source_account_id` has 
           insufficient funds to perform the transfer.
         """
-
-        # self.accounts = {} -> key: account id / value: funds
-
-        # default implementation
+        # Process any due cashbacks prior to transfer
         self.process_cashback(timestamp)
 
+        # Edge cases: either account not existing in system, source and target accounts are the same,
+        # or source balance is less than amount
         if not source_account_id in self.accounts or not target_account_id in self.accounts \
-            or source_account_id == target_account_id or self.accounts[source_account_id] < amount:
+            or source_account_id == target_account_id:
+            return None
+        
+        # Define src_balance after checking source_account_id exists and ensure it is larger than amount
+        src_balance = self.accounts[source_account_id][-1][3]
+        if src_balance < amount:
             return None
 
-        self.accounts[target_account_id] += amount
-        self.accounts[source_account_id] -= amount
+        # Perform transfer by subtracting amount from source balance and adding amount to target balance
+        src_transaction_type = 'Transfer Out'
+        tgt_transaction_type = 'Transfer In'
+        tgt_balance = self.accounts[target_account_id][-1][3]
+        new_src_balance = src_balance - amount
+        new_tgt_balance = tgt_balance + amount
 
-        type_of_transaction = "Transfer"
-        self.record_transaction(source_account_id, type_of_transaction, amount, timestamp)
-        #self.transactions[source_account_id].append((type_of_transaction, amount, timestamp))
-        return self.accounts[source_account_id]
+        # Record transactions in each account's history
+        self.accounts[source_account_id].append((timestamp, src_transaction_type, amount, new_src_balance))
+        self.accounts[target_account_id].append((timestamp, tgt_transaction_type, amount, new_tgt_balance))
+        return new_src_balance
 
     # Level 2
     def top_spenders(self, timestamp: int, n: int) -> list[str]:
