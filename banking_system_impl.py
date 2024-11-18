@@ -17,6 +17,7 @@ class BankingSystemImpl(BankingSystem):
         # Track total number of payments made across banking system to give each payment a unique ID
         self.num_payments = 0
 
+
     # Level 1 
     def create_account(self, timestamp: int, account_id: str) -> bool:
         """
@@ -30,17 +31,8 @@ class BankingSystemImpl(BankingSystem):
             return False
         
         # Create new key in accounts and transactions dictionaries 
-        self.accounts[account_id] = [(timestamp, 'Account Creation', 0, 0)] 
+        self.accounts[account_id] = [(timestamp, "Account Creation", 0, 0)] 
         return True
-    
-    def update_balance(self, account_id: str, type_of_transaction: str, amount: int, timestamp: int):
-        prev_balance = self.accounts[account_id][-1][1]
-        if type_of_transaction == 'Deposit':
-            curr_balance = prev_balance + amount
-        else:
-            curr_balance = prev_balance - amount
-        self.accounts[account_id].append((timestamp, curr_balance))
-        return curr_balance
 
     def deposit(self, timestamp: int, account_id: str, amount: int) -> int | None:
         """
@@ -59,7 +51,7 @@ class BankingSystemImpl(BankingSystem):
             return None
         
         # Add amount to account balance and update record
-        transaction_type = 'Deposit'
+        transaction_type = "Deposit"
         prev_balance = self.accounts[account_id][-1][3] # Access most recent tuple's balance
         new_balance = prev_balance + amount
         self.accounts[account_id].append((timestamp, transaction_type, amount, new_balance))     
@@ -93,8 +85,8 @@ class BankingSystemImpl(BankingSystem):
             return None
 
         # Perform transfer by subtracting amount from source balance and adding amount to target balance
-        src_transaction_type = 'Transfer Out'
-        tgt_transaction_type = 'Transfer In'
+        src_transaction_type = "Transfer Out"
+        tgt_transaction_type = "Transfer In"
         tgt_balance = self.accounts[target_account_id][-1][3]
         new_src_balance = src_balance - amount
         new_tgt_balance = tgt_balance + amount
@@ -103,6 +95,7 @@ class BankingSystemImpl(BankingSystem):
         self.accounts[source_account_id].append((timestamp, src_transaction_type, amount, new_src_balance))
         self.accounts[target_account_id].append((timestamp, tgt_transaction_type, amount, new_tgt_balance))
         return new_src_balance
+
 
     # Level 2
     def top_spenders(self, timestamp: int, n: int) -> list[str]:
@@ -119,20 +112,27 @@ class BankingSystemImpl(BankingSystem):
         output: list[str]
             list of n strings with the top id's and transaction sums
         """
+        # Initialize dictionary to hold account_id as keys and outgoing_total as values
         outgoing_totals = {}
 
-        for account_id, transactions in self.transactions.items():
+        # Iterate through each account's history
+        for account_id, transaction_history in self.accounts.items():
+            # Initialize outgoing total to sum up each outgoing transaction amount
             outgoing_total = 0
-            for occurence in transactions:
-                type_of_transaction, amount, timestamp = occurence[0], occurence[1], occurence[2]
-                if type_of_transaction in ["Transfer", "Pay", "Withdraw"]: ### Check other transactions to add here  
+            # Iterate through each transaction in one account's history
+            for t in transaction_history:
+                _, transaction_type, amount, _ = t[0], t[1], t[2], t[3] # Only type and amount are needed
+                if transaction_type in ["Transfer Out", "Pay"]: # Only consider outgoing transactions  
                     outgoing_total += amount
             outgoing_totals[account_id] = outgoing_total
 
+        # Sort outgoing_totals by largest outgoing_amount descending, then by account_id ascending (break ties)
         sorted_accounts = sorted(outgoing_totals.items(), key= lambda x:(-x[1], x[0]))
         output = [f"{account_id}({total})" for account_id, total in sorted_accounts[:n]]
         return output    
 
+
+    # Level 3
     def pay(self, timestamp: int, account_id: str, amount: int) -> str | None:
         """
         Should withdraw the given amount of money from the specified
@@ -182,7 +182,6 @@ class BankingSystemImpl(BankingSystem):
         # Increment number of payments to assign unique ID to payment
         self.num_payments += 1
         return 'payment' + str(self.num_payments)
-    
 
     def process_cashback(self, timestamp: int) -> None:
         """
@@ -204,30 +203,6 @@ class BankingSystemImpl(BankingSystem):
             # Delete entry in scheduled cashbacks to complete processing
             del self.scheduled_cashbacks[cashback_timestamp]
 
-    def get_balance(self, timestamp: int, account_id: str, time_at: int) -> int | None:
-        """
-        Should return the total amount of money in the account
-        `account_id` at the given timestamp `time_at`.
-        If the specified account did not exist at a given time
-        `time_at`, returns `None`.
-          * If queries have been processed at timestamp `time_at`,
-          `get_balance` must reflect the account balance **after** the
-          query has been processed.
-          * If the account was merged into another account, the merged
-          account should inherit its balance history.
-        """
-
-        # Note, I am not sure what is meant by the bullet point talking about query
-        # I also am unsure how we plan to implement an account merge, so I will hold off on that functionality
-
-        balance_updates = self.accounts[account_id]
-        for timestamp, balance in balance_updates:
-            if timestamp < time_at:
-                continue
-            else:
-                return balance
-        return None
-    
     def get_payment_status(self, timestamp: int, account_id: str, payment: str) -> str | None:
         """
         Should return the status of the payment transaction for the
@@ -269,3 +244,28 @@ class BankingSystemImpl(BankingSystem):
         else:
             return "CASHBACK_RECEIVED"
 
+
+    #
+    def get_balance(self, timestamp: int, account_id: str, time_at: int) -> int | None:
+        """
+        Should return the total amount of money in the account
+        `account_id` at the given timestamp `time_at`.
+        If the specified account did not exist at a given time
+        `time_at`, returns `None`.
+          * If queries have been processed at timestamp `time_at`,
+          `get_balance` must reflect the account balance **after** the
+          query has been processed.
+          * If the account was merged into another account, the merged
+          account should inherit its balance history.
+        """
+
+        # Note, I am not sure what is meant by the bullet point talking about query
+        # I also am unsure how we plan to implement an account merge, so I will hold off on that functionality
+
+        balance_updates = self.accounts[account_id]
+        for timestamp, balance in balance_updates:
+            if timestamp < time_at:
+                continue
+            else:
+                return balance
+        return None
