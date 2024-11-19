@@ -11,11 +11,10 @@ class BankingSystemImpl(BankingSystem):
         # i.e. {account1 : [(1, 'Account Creation', 0, 0), (2, 'Deposit', 200, 200), (3, 'Pay', 50, 150)]}
         self.accounts = {}
 
-        # Encapsulate scheduled cashbacks in a dictionary with {timestamp : (account_id, cashback_amount)}
-        self.scheduled_cashbacks = {}
-
-        # Track total number of payments made across banking system to give each payment a unique ID
-        self.num_payments = 0
+        # Encapsulate scheduled cashback payments in a dictionary with (payment_id, timestamp) as keys and
+        # (account_id, cashback_amount, status) as values
+        # i.e. {payment1 : (account1, 86400001, 20, False)} 
+        self.payments = {}
 
 
     # Level 1 
@@ -26,6 +25,7 @@ class BankingSystemImpl(BankingSystem):
         Returns `True` if the account was successfully created or
         `False` if an account with `account_id` already exists.
         """
+
         # Edge case, account already exists in system
         if account_id in self.accounts:
             return False
@@ -43,6 +43,7 @@ class BankingSystemImpl(BankingSystem):
         If the specified account doesn't exist, should return
         `None`.
         """
+
         # Process any due cashbacks prior to deposit
         self.process_cashback(timestamp)
 
@@ -70,6 +71,7 @@ class BankingSystemImpl(BankingSystem):
           * Returns `None` if account `source_account_id` has 
           insufficient funds to perform the transfer.
         """
+        
         # Process any due cashbacks prior to transfer
         self.process_cashback(timestamp)
 
@@ -112,6 +114,7 @@ class BankingSystemImpl(BankingSystem):
         output: list[str]
             list of n strings with the top id's and transaction sums
         """
+        
         # Initialize dictionary to hold account_id as keys and outgoing_total as values
         outgoing_totals = {}
 
@@ -162,26 +165,28 @@ class BankingSystemImpl(BankingSystem):
           transactions are performed at the relevant timestamp.
         """
 
+        # Process any due cashback prior to payment
         self.process_cashback(timestamp)
         
-        # Edge case handling, returns None if account does not exist or balance less than payment amount
-        if account_id not in self.accounts or self.accounts[account_id] < amount:
+        # Edge cases: account does not exist or balance less than payment amount
+        if account_id not in self.accounts:
+            return None
+        balance = self.accounts[account_id][-1][3]
+        if balance < amount:
             return None
         
         # Process payment by subtracting from account balance and record transaction
-        self.accounts[account_id] -= amount
-        self.record_transaction(account_id, 'Pay', amount, timestamp)
+        transaction_type = "Pay"
+        new_balance = balance - amount
+        self.accounts[account_id].append((timestamp, transaction_type, amount, new_balance))
 
         # Initialize cashback by calculating amount and storing in schedule
         cashback = amount * 2 // 100
         cashback_timestamp = timestamp + self.MILLISECONDS_IN_1_DAY
-        if cashback_timestamp not in self.scheduled_cashbacks:
-            self.scheduled_cashbacks[cashback_timestamp] = []
-        self.scheduled_cashbacks[cashback_timestamp].append((account_id, cashback))
-
-        # Increment number of payments to assign unique ID to payment
-        self.num_payments += 1
-        return 'payment' + str(self.num_payments)
+        payment_id = 'payment' + str(len(self.payments) + 1)
+        completed = False
+        self.payments[payment_id] = (account_id, cashback_timestamp, cashback, completed)
+        return payment_id
 
     def process_cashback(self, timestamp: int) -> None:
         """
@@ -192,16 +197,24 @@ class BankingSystemImpl(BankingSystem):
         """
         
         # List only cashback operations that are due at the current timestamp
-        due_cashbacks = [t for t in self.scheduled_cashbacks.keys() if t <= timestamp]
-        
-        # Traverse through sorted cashback timestamps
-        for cashback_timestamp in sorted(due_cashbacks):
-            for account_id, cashback in self.scheduled_cashbacks[cashback_timestamp]:
-                # Process cashback by adding to account balance and recording transaction
-                self.accounts[account_id] += cashback
-                self.record_transaction(account_id, 'Cashback', cashback, cashback_timestamp)
-            # Delete entry in scheduled cashbacks to complete processing
-            del self.scheduled_cashbacks[cashback_timestamp]
+        # Timestamp will be the 2nd record in any payment value tuple
+        due_cashbacks = sorted([payment_id for payment_id, value in self.payments.items() if value[1] <= timestamp])
+        transaction_type = "Cashback"
+
+        # Iterate through the the keys of due cashbacks
+        for key in due_cashbacks:
+            # Unpack the tuple associated with a due key
+            account_id, cashback_timestamp, cashback, status = [*self.payments[key]]
+            # Only process in progress cashbacks
+            if not status:
+                # Update balance and record transaction
+                balance = self.accounts[account_id][-1][3]
+                new_balance = balance + cashback
+                self.accounts[account_id].append((cashback_timestamp, transaction_type, cashback, new_balance))
+                status = True
+
+            # Process payment by updating completed to be True
+            self.payments[key] = (account_id, cashback_timestamp, cashback, status)
 
     def get_payment_status(self, timestamp: int, account_id: str, payment: str) -> str | None:
         """
@@ -216,36 +229,28 @@ class BankingSystemImpl(BankingSystem):
           * Returns a string representing the payment status:
           `"IN_PROGRESS"` or `"CASHBACK_RECEIVED"`.
         """
-        # default implementation
+
+        # Process any due cashback prior to getting payment status
+        self.process_cashback(timestamp)
 
         # Check if account_id exists
-        if account_id not in self.accounts:
+        if account_id not in self.accounts or payment not in self.payments.keys():
           return None
 
-        payment_number = int(payment.replace('payment',''))
-        # Check if payment exists 
+        # If account exists, check if account_id of payment matches input
+        payment_info = self.payments[payment]
+        payment_account_id = payment_info[0]
+        if account_id != payment_account_id:
+            return None
 
-        if payment > self.num_payments:
-            return None ## payment cannot exist if number of payments is greater than what is recorded
-        
-        exists = False
-
-        for type_of_transaction, amount_transferred, timestamp_here in self.transactions[account_id]:
-            if type_of_transaction == "Pay" and timestamp_here == timestamp:
-                exists = True
-                break
-
-        if not exists:
-            return None # payment does not exist
-        
-        cashback_due_time = timestamp + self.MILLISECONDS_IN_1_DAY
-        if timestamp < cashback_due_time:
-            return "IN_PROGRESS"
-        else:
+        status = payment_info[3]
+        if status:
             return "CASHBACK_RECEIVED"
+        elif not status:
+            return "IN_PROGRESS"
 
 
-    #
+    # Level 4 
     def get_balance(self, timestamp: int, account_id: str, time_at: int) -> int | None:
         """
         Should return the total amount of money in the account
