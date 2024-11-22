@@ -18,6 +18,9 @@ class BankingSystemImpl(BankingSystem):
         # Track total number of payments made across banking system to give each payment a unique ID
         self.num_payments = 0
 
+        # To consider: implement a merged_acocunts dictionary with mapping between primary and secondary accounts
+        self.merged_accounts = {} #structure: {primary_account_id: secondary_account_id}
+
     # Level 1 
     def create_account(self, timestamp: int, account_id: str) -> bool:
         """
@@ -217,16 +220,22 @@ class BankingSystemImpl(BankingSystem):
           account should inherit its balance history.
         """
 
-        # Note, I am not sure what is meant by the bullet point talking about query
+        # Process cashback query before even accessing the balance 
+        self.process_cashback(timestamp)
         # I also am unsure how we plan to implement an account merge, so I will hold off on that functionality
-
-        balance_updates = self.accounts[account_id]
-        for timestamp, balance in balance_updates:
-            if timestamp < time_at:
-                continue
-            else:
-                return balance
-        return None
+        if account_id not in self.accounts:
+            return None
+        elif account_id in self.merged_accounts:
+            account = self.merged_accounts[account_id]
+        else:
+            account = account_id
+        balance_updates = sorted(self.accounts[account], key=lambda x: x[0])
+        balance_at_time = None
+        for timestamp, _, _, balance in balance_updates:
+            if timestamp > time_at:
+                break
+            balance_at_time = balance
+        return balance_at_time
     
     def get_payment_status(self, timestamp: int, account_id: str, payment: str) -> str | None:
         """
