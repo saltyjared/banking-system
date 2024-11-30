@@ -1,4 +1,5 @@
 from banking_system import BankingSystem
+import bisect
 
 class BankingSystemImpl(BankingSystem):
 
@@ -11,10 +12,15 @@ class BankingSystemImpl(BankingSystem):
         # i.e. {account1 : [(1, 'Account Creation', 0, 0), (2, 'Deposit', 200, 200), (3, 'Pay', 50, 150)]}
         self.accounts = {}
 
-        # Encapsulate scheduled cashback payments in a dictionary with (payment_id, timestamp) as keys and
-        # (account_id, cashback_amount, status) as values
-        # i.e. {payment1 : (account1, 86400001, 20, False)} 
+        # Encapsulate scheduled cashback payments in a dictionary with payment_id as a key and
+        # [account_id, cashback_amount, status] as values
+        # i.e. {payment1 : [account1, 86400001, 20, False]} 
         self.payments = {}
+
+        # Encapsulate merged accounts in a dictionary, with the merged account being the key and the new
+        # primary account being the value
+        # i.e. {acc2 : acc1} -> 'acc2' has been merged into 'acc1'
+        self.merged_accounts = {}
 
 
     # Level 1 
@@ -185,7 +191,7 @@ class BankingSystemImpl(BankingSystem):
         cashback_timestamp = timestamp + self.MILLISECONDS_IN_1_DAY
         payment_id = 'payment' + str(len(self.payments) + 1)
         completed = False
-        self.payments[payment_id] = (account_id, cashback_timestamp, cashback, completed)
+        self.payments[payment_id] = [account_id, cashback_timestamp, cashback, completed]
         return payment_id
 
     def process_cashback(self, timestamp: int) -> None:
@@ -214,7 +220,7 @@ class BankingSystemImpl(BankingSystem):
                 status = True
 
             # Process payment by updating completed to be True
-            self.payments[key] = (account_id, cashback_timestamp, cashback, status)
+            self.payments[key] = [account_id, cashback_timestamp, cashback, status]
 
     def get_payment_status(self, timestamp: int, account_id: str, payment: str) -> str | None:
         """
@@ -251,6 +257,58 @@ class BankingSystemImpl(BankingSystem):
 
 
     # Level 4 
+    def merge_accounts(self, timestamp: int, account_id_1: str, account_id_2: str):
+        """
+        Should merge `account_id_2` into the `account_id_1`.
+        Returns `True` if accounts were successfully merged, or
+        `False` otherwise. 
+        Specifically:
+            1. Returns `False` if `account_id_1` is equal to `account_id_2`. 
+            2. Returns `False` if `account_id_1` or `account_id_2` doesn't exist. 
+            3. All pending cashback refunds for `account_id_2` should 
+               still be processed, but refunded to `account_id_1` instead. 
+            4. After the merge, it must be possible to check the status
+               of payment transactions for `account_id_2` with payment
+               identifiers by replacing `account_id_2` with `account_id_1`.
+            5. The balance of `account_id_2` should be added to the
+               balance for `account_id_1`.
+            6. `top_spenders` operations should recognize merged accounts
+               the total outgoing transactions for merged accounts should
+               be the sum of all money transferred and/or withdrawn in both
+               accounts.
+            7. `account_id_2` should be removed from the system after the
+               merge.
+        """
+        # Edge cases: account IDs are the same or either does not exist in system
+        if account_id_1 == account_id_2 or account_id_1 not in self.accounts or account_id_2 not in self.accounts:
+            return False
+        
+        # Track accounts have been merged by adding key:val to dict
+        self.merged_accounts[account_id_2] = account_id_1
+
+        # Change all cashback payment history of account 2 to account 1
+        for payment in self.payments.values():
+            if payment[0] == account_id_2:
+                payment[0] = account_id_1
+        
+        # Add balance of account 2 to account 1
+        acc_2_bal = self.accounts[account_id_2][-1][3]
+        acc_1_bal = self.accounts[account_id_1][-1][3]
+        transaction_type = f'Merged Account with {account_id_2}'
+        new_bal = acc_1_bal + acc_2_bal
+
+        # Merge transaction histories of account 2 with account 1
+        self.accounts[account_id_1] += self.accounts[account_id_2]
+        self.accounts[account_id_1].sort()
+
+        # Delete account 2 from system
+        del self.accounts[account_id_2]
+
+        # Record merge as a transaction for account 1
+        self.accounts[account_id_1].append((timestamp, transaction_type, acc_2_bal, new_bal))
+        
+        return True
+
     def get_balance(self, timestamp: int, account_id: str, time_at: int) -> int | None:
         """
         Should return the total amount of money in the account
@@ -264,13 +322,16 @@ class BankingSystemImpl(BankingSystem):
           account should inherit its balance history.
         """
 
-        # Note, I am not sure what is meant by the bullet point talking about query
-        # I also am unsure how we plan to implement an account merge, so I will hold off on that functionality
+        self.process_cashback(timestamp)
 
-        balance_updates = self.accounts[account_id]
-        for timestamp, balance in balance_updates:
-            if timestamp < time_at:
-                continue
-            else:
-                return balance
-        return None
+        if account_id not in self.accounts:
+            return None
+        self.accounts[account_id].sort()
+        if self.accounts[account_id][0][0] > time_at:
+            return None
+
+        account_history = self.accounts[account_id]
+        account_timestamps = [x[0] for x in account_history]
+        closest_timestamp = bisect.bisect_left(account_timestamps, time_at + 1) - 1
+        print(closest_timestamp)
+        return account_history[closest_timestamp][3]
