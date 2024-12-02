@@ -66,6 +66,7 @@ class Level4Tests(unittest.TestCase):
         self.assertEqual(self.system.deposit(86400008, 'account1', 100), 1414)
 
     def test_level_4_case_04_basic_get_balance(self):
+        print(f"Running test: {self._testMethodName}")
         self.assertTrue(self.system.create_account(1, 'account1'))
         self.assertTrue(self.system.create_account(2, 'account2'))
         self.assertTrue(self.system.create_account(3, 'account3'))
@@ -96,6 +97,7 @@ class Level4Tests(unittest.TestCase):
         self.assertEqual(self.system.get_balance(86400011, 'account1', 86400010), 412)
 
     def test_level_4_case_06_get_balance_edge_cases(self):
+        print(f"Running test: {self._testMethodName}")
         self.assertTrue(self.system.create_account(1, 'account1'))
         self.assertTrue(self.system.create_account(2, 'account2'))
         self.assertTrue(self.system.create_account(3, 'account3'))
@@ -124,6 +126,7 @@ class Level4Tests(unittest.TestCase):
         self.assertFalse(self.system.merge_accounts(7, 'account1', 'account1'))
 
     def test_level_4_case_08_all_operations_1(self):
+        print(f"Running test: {self._testMethodName}")
         self.assertTrue(self.system.create_account(1, 'account1'))
         self.assertTrue(self.system.create_account(2, 'account4'))
         self.assertTrue(self.system.create_account(3, 'account3'))
@@ -163,6 +166,7 @@ class Level4Tests(unittest.TestCase):
         self.assertEqual(self.system.get_balance(86400018, 'account4', 86400014), 610)
 
     def test_level_4_case_09_all_operations_2(self):
+        print(f"Running test: {self._testMethodName}")
         self.assertTrue(self.system.create_account(1, 'account1'))
         self.assertTrue(self.system.create_account(2, 'account4'))
         self.assertTrue(self.system.create_account(3, 'account3'))
@@ -196,6 +200,7 @@ class Level4Tests(unittest.TestCase):
         self.assertEqual(self.system.get_payment_status(86400014, 'account1', 'payment2'), 'CASHBACK_RECEIVED')
 
     def test_level_4_case_10_all_operations_3(self):
+        print(f"Running test: {self._testMethodName}")
         self.assertTrue(self.system.create_account(1, 'acc1'))
         self.assertTrue(self.system.create_account(2, 'acc2'))
         self.assertTrue(self.system.create_account(3, 'acc3'))

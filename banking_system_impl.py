@@ -8,8 +8,8 @@ class BankingSystemImpl(BankingSystem):
 
     def __init__(self):
         # Encapsulate registered accounts in a dictionary with account IDs as keys and transaction history as values
-        # Transactions are recorded as a 4-element tuple: (timestamp, transaction_type, transaction_amt, balance)
-        # i.e. {account1 : [(1, 'Account Creation', 0, 0), (2, 'Deposit', 200, 200), (3, 'Pay', 50, 150)]}
+        # Transactions are recorded as a 4-element tuple: (timestamp, transaction_type, transaction_amt, balance, account_id)
+        # i.e. {account1 : [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 200, 200, 'account1'), (3, 'Pay', 50, 150, 'account1')]}
         self.accounts = {}
 
         # Encapsulate scheduled cashback payments in a dictionary with payment_id as a key and
@@ -37,7 +37,8 @@ class BankingSystemImpl(BankingSystem):
             return False
         
         # Create new key in accounts and transactions dictionaries 
-        self.accounts[account_id] = [(timestamp, "Account Creation", 0, 0)] 
+        self.accounts[account_id] = [(timestamp, "Account Creation", 0, 0, account_id)] 
+        print(f"{account_id} has been created at {timestamp}")
         return True
 
     def deposit(self, timestamp: int, account_id: str, amount: int) -> int | None:
@@ -61,7 +62,8 @@ class BankingSystemImpl(BankingSystem):
         transaction_type = "Deposit"
         prev_balance = self.accounts[account_id][-1][3] # Access most recent tuple's balance
         new_balance = prev_balance + amount
-        self.accounts[account_id].append((timestamp, transaction_type, amount, new_balance))     
+        self.accounts[account_id].append((timestamp, transaction_type, amount, new_balance, account_id))  
+        print(f"{account_id} has {new_balance}")   
         return new_balance
           
     def transfer(self, timestamp: int, source_account_id: str, target_account_id: str, amount: int) -> int | None:
@@ -100,8 +102,10 @@ class BankingSystemImpl(BankingSystem):
         new_tgt_balance = tgt_balance + amount
 
         # Record transactions in each account's history
-        self.accounts[source_account_id].append((timestamp, src_transaction_type, amount, new_src_balance))
-        self.accounts[target_account_id].append((timestamp, tgt_transaction_type, amount, new_tgt_balance))
+        self.accounts[source_account_id].append((timestamp, src_transaction_type, amount, new_src_balance, source_account_id))
+        self.accounts[target_account_id].append((timestamp, tgt_transaction_type, amount, new_tgt_balance, target_account_id))
+        print(f"{source_account_id} has {new_src_balance}")   
+        print(f"{target_account_id} has {new_tgt_balance}")   
         return new_src_balance
 
 
@@ -184,7 +188,7 @@ class BankingSystemImpl(BankingSystem):
         # Process payment by subtracting from account balance and record transaction
         transaction_type = "Pay"
         new_balance = balance - amount
-        self.accounts[account_id].append((timestamp, transaction_type, amount, new_balance))
+        self.accounts[account_id].append((timestamp, transaction_type, amount, new_balance, account_id))
 
         # Initialize cashback by calculating amount and storing in schedule
         cashback = amount * 2 // 100
@@ -192,6 +196,7 @@ class BankingSystemImpl(BankingSystem):
         payment_id = 'payment' + str(len(self.payments) + 1)
         completed = False
         self.payments[payment_id] = [account_id, cashback_timestamp, cashback, completed]
+        print(f"{account_id} has {new_balance}")   
         return payment_id
 
     def process_cashback(self, timestamp: int) -> None:
@@ -216,7 +221,7 @@ class BankingSystemImpl(BankingSystem):
                 # Update balance and record transaction
                 balance = self.accounts[account_id][-1][3]
                 new_balance = balance + cashback
-                self.accounts[account_id].append((cashback_timestamp, transaction_type, cashback, new_balance))
+                self.accounts[account_id].append((cashback_timestamp, transaction_type, cashback, new_balance, account_id))
                 status = True
 
             # Process payment by updating completed to be True
@@ -282,7 +287,7 @@ class BankingSystemImpl(BankingSystem):
         # Edge cases: account IDs are the same or either does not exist in system
         if account_id_1 == account_id_2 or account_id_1 not in self.accounts or account_id_2 not in self.accounts:
             return False
-        
+                
         # Track accounts have been merged by adding key:val to dict
         self.merged_accounts[account_id_2] = account_id_1
 
@@ -298,16 +303,37 @@ class BankingSystemImpl(BankingSystem):
         new_bal = acc_1_bal + acc_2_bal
 
         # Merge transaction histories of account 2 with account 1
-        self.accounts[account_id_1] += self.accounts[account_id_2]
+        self.accounts[account_id_1].extend(self.accounts[account_id_2])
         self.accounts[account_id_1].sort()
 
         # Delete account 2 from system
         del self.accounts[account_id_2]
 
         # Record merge as a transaction for account 1
-        self.accounts[account_id_1].append((timestamp, transaction_type, acc_2_bal, new_bal))
-        
+        self.accounts[account_id_1].append((timestamp, transaction_type, acc_2_bal, new_bal, account_id_1))
+
         return True
+    
+    def balance_query(self, timestamp: int, account_id: str, time_at: int, target_account) -> int | None:
+        "Allows us to query based on merged account id's that may be deprecated"
+        account_history = self.accounts[account_id]
+        if not account_history:
+            return None
+        
+        original_account_history = [x for x in account_history if x[4] == target_account]
+    
+        account_timestamps = [x[0] for x in original_account_history]
+        closest_index = bisect.bisect_right(account_timestamps, time_at) - 1
+
+        if closest_index == -1:
+            return None
+
+        print(f"Querying balance for {account_id} at time {time_at}")
+        print(f"Full transaction list: {self.accounts[account_id]}")
+        print(f"Searched transaction list: {original_account_history}")
+        print(f"Closest index: {closest_index}, Closest timestamp: {account_timestamps[closest_index]}")
+
+        return original_account_history[closest_index][3]
 
     def get_balance(self, timestamp: int, account_id: str, time_at: int) -> int | None:
         """
@@ -325,13 +351,31 @@ class BankingSystemImpl(BankingSystem):
         self.process_cashback(timestamp)
 
         if account_id not in self.accounts:
-            return None
+            if not account_id in self.merged_accounts:
+                return None
+            else:
+                new_account_id = self.merged_accounts[account_id]
+                new_history = self.accounts[new_account_id]
+                merge = [x for x in new_history if x[1] == f"Merged Account with {account_id}"]
+                merge_time = merge[0][0]
+                if merge_time > time_at:
+                    merged_account = account_id
+                    account_id = new_account_id
+                    query = self.balance_query(timestamp, account_id, time_at, merged_account)
+                else: 
+                    return None
+
+        # to-do : find a way to retain old id so i can query by it 
+        
         self.accounts[account_id].sort()
         if self.accounts[account_id][0][0] > time_at:
             return None
 
         account_history = self.accounts[account_id]
-        account_timestamps = [x[0] for x in account_history]
-        closest_timestamp = bisect.bisect_left(account_timestamps, time_at + 1) - 1
-        print(closest_timestamp)
-        return account_history[closest_timestamp][3]
+        if not account_history:
+            return None
+        
+        query = self.balance_query(timestamp, account_id, time_at, target_account=account_id)
+
+        return query
+    
