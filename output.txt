@@ -1,0 +1,2811 @@
+...................account1 has been created at 1
+account2 has been created at 2
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2500
+account1 has 3000
+account2 has 1000
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2000
+account2 has 1000
+account1 has 1500
+account2 has 1500
+account1 has 1600
+account2 has 1600
+account1 has been created at 1
+account2 has been created at 3
+account1 has been created at 1
+account2 has been created at 2
+account1 has 100
+account2 has 100
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2500
+account1 has 3000
+account2 has 500
+account2 has 1000
+account1 has 25
+account2 has 3975
+account3 has been created at 13
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc3 has 1000
+acc2 has 1000
+acc3 has 901
+acc2 has 1099
+acc3 has 801
+acc2 has 1199
+acc3 has 700
+acc2 has 1300
+acc3 has 575
+acc1 has 125
+acc1 has 225
+acc2 has 1400
+acc3 has 675
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc1 has 25
+acc4 has 333
+acc1 has 95
+acc1 has 170
+acc2 has 10
+acc2 has 25
+acc4 has 555
+acc3 has 89
+acc2 has 100
+acc3 has 189
+acc2 has 133
+acc1 has 175
+acc2 has 200
+acc3 has 200
+acc3 has 439
+acc1 has 300
+acc3 has 500
+acc4 has 600
+acc1 has 175
+acc2 has 325
+acc1 has 130
+acc2 has 370
+acc1 has 2
+acc2 has 498
+acc4 has 5
+acc3 has 1095
+acc2 has 4
+acc3 has 1589
+acc3 has 1700
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc1 has 1000
+acc2 has 2000
+acc3 has 3000
+acc4 has 2000
+acc5 has 1000
+acc6 has been created at 16
+acc6 has 1000
+acc6 has 901
+acc1 has 1099
+acc6 has 899
+acc2 has 2002
+acc6 has 833
+acc3 has 3066
+acc6 has 831
+acc1 has 1101
+acc6 has 765
+acc3 has 3132
+acc6 has 666
+acc2 has 2101
+acc6 has 567
+acc1 has 1200
+acc6 has 501
+acc4 has 2066
+acc6 has 434
+acc5 has 1067
+acc6 has 368
+acc5 has 1133
+acc6 has 269
+acc2 has 2200
+acc6 has 201
+acc3 has 3200
+acc6 has 133
+acc4 has 2134
+acc6 has 67
+acc4 has 2200
+acc6 has 0
+acc5 has 1200
+acc1 has 2000
+acc2 has 3000
+acc3 has 4000
+acc4 has 3000
+acc5 has 2000
+acc6 has 1000
+acc6 has 9
+acc3 has 4991
+acc6 has 8
+acc3 has 4992
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc6 has been created at 6
+acc7 has been created at 7
+acc8 has been created at 8
+acc9 has been created at 9
+acc10 has been created at 10
+acc1 has 741
+acc2 has 703
+acc3 has 806
+acc4 has 785
+acc5 has 902
+acc6 has 927
+acc7 has 155
+acc8 has 267
+acc9 has 691
+acc1 has 1611
+acc2 has 1630
+acc3 has 910
+acc4 has 1679
+acc5 has 1238
+acc6 has 1514
+acc7 has 1083
+acc8 has 441
+acc9 has 719
+acc1 has 2028
+acc2 has 1707
+acc3 has 1016
+acc4 has 1808
+acc5 has 1565
+acc6 has 2000
+acc7 has 2056
+acc8 has 1036
+acc9 has 1180
+acc1 has 2242
+acc2 has 1912
+acc3 has 1341
+acc4 has 2449
+acc5 has 2496
+acc6 has 2698
+acc7 has 2400
+acc8 has 1373
+acc9 has 1618
+acc1 has 2885
+acc2 has 2443
+acc3 has 2166
+acc4 has 3311
+acc5 has 3000
+acc6 has 3113
+acc7 has 2484
+acc8 has 1585
+acc9 has 2205
+acc1 has 2921
+acc2 has 2650
+acc3 has 2263
+acc4 has 3397
+acc5 has 3195
+acc6 has 3373
+acc7 has 3195
+acc8 has 2368
+acc9 has 2496
+acc1 has 3628
+acc2 has 2913
+acc3 has 2431
+acc4 has 4036
+acc5 has 3316
+acc6 has 4301
+acc7 has 3219
+acc8 has 2642
+acc9 has 3219
+acc1 has 4508
+acc2 has 3775
+acc3 has 2656
+acc4 has 4624
+acc5 has 3560
+acc6 has 4359
+acc7 has 3233
+acc8 has 3461
+acc9 has 3880
+acc1 has 4816
+acc2 has 4062
+acc3 has 2797
+acc4 has 5336
+acc5 has 4223
+acc6 has 4703
+acc7 has 3848
+acc8 has 4200
+acc9 has 4339
+acc1 has 4973
+acc2 has 5007
+acc3 has 3451
+acc4 has 5617
+acc5 has 4793
+acc6 has 5556
+acc7 has 4292
+acc8 has 4361
+acc9 has 4508
+acc6 has 4849
+acc1 has 5680
+acc2 has 4568
+acc9 has 4947
+acc5 has 4673
+acc3 has 3571
+acc3 has 3394
+acc6 has 5026
+acc2 has 4450
+acc1 has 5798
+acc6 has 4482
+acc7 has 4836
+acc1 has 5227
+acc7 has 5407
+acc9 has 4851
+acc1 has 5323
+acc5 has 4014
+acc4 has 6276
+acc1 has 4523
+acc10 has 800
+acc4 has 6230
+acc10 has 846
+acc2 has 3554
+acc4 has 7126
+acc2 has 3272
+acc6 has 4764
+acc1 has 4421
+acc6 has 4866
+acc3 has 3085
+acc1 has 4730
+acc2 has 2872
+acc8 has 4761
+acc2 has 2787
+acc10 has 931
+acc2 has 1953
+acc3 has 3919
+acc10 has 516
+acc4 has 7541
+acc1 has 4518
+acc4 has 7753
+acc5 has 3708
+acc9 has 5157
+acc2 has 1210
+acc10 has 1259
+acc4 has 6895
+acc6 has 5724
+acc7 has 5338
+acc1 has 4587
+acc9 has 4940
+acc7 has 5555
+acc8 has 3771
+acc9 has 5930
+acc6 has 5643
+acc9 has 6011
+acc9 has 5202
+acc5 has 4517
+acc4 has 6843
+acc7 has 5607
+acc10 has 357
+acc2 has 2112
+acc9 has 4281
+acc6 has 6564
+acc8 has 3367
+acc6 has 6968
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 1000
+account2 has 1000
+account3 has 1000
+account2 has 900
+account3 has 1100
+account2 has 800
+account1 has 1100
+account3 has 1000
+account1 has 1200
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 500
+account2 has 500
+account3 has 750
+account2 has 261
+account3 has 989
+account3 has 639
+account1 has 850
+account2 has 200
+account1 has 911
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 1000
+account2 has 1000
+account3 has 1000
+account2 has 901
+account3 has 1099
+account3 has 899
+account1 has 1200
+account3 has 799
+account1 has 1300
+account2 has 702
+account3 has 998
+account2 has 603
+account3 has 1097
+account2 has 599
+account1 has 1304
+account3 has 997
+account1 has 1404
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 1000
+account2 has 1000
+account3 has 1000
+account2 has 900
+account3 has 1100
+account3 has 900
+account1 has 1200
+account1 has 900
+account2 has 1200
+accountA has been created at 1
+accountC has been created at 2
+accountB has been created at 3
+accountA has 1000
+accountB has 1000
+accountC has 1000
+accountB has 899
+accountC has 1101
+accountB has 800
+accountA has 1099
+accountA has 999
+accountC has 1201
+accountA has 899
+accountB has 900
+accountC has 1002
+accountA has 1098
+accountC has 1001
+accountB has 901
+acc1 has been created at 1
+acc3 has been created at 2
+acc2 has been created at 3
+acc1 has 100
+acc2 has 200
+acc3 has 300
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc1 has 300
+acc2 has 350
+acc3 has 150
+acc4 has 400
+acc5 has 600
+acc1 has 280
+acc3 has 170
+acc3 has 320
+acc2 has 320
+acc1 has 310
+acc3 has 285
+acc5 has 635
+acc4 has 800
+acc5 has 595
+acc1 has 350
+acc3 has 240
+acc4 has 845
+acc4 has 795
+acc1 has 400
+acc5 has 1195
+acc3 has 185
+acc5 has 1250
+acc1 has 340
+acc2 has 380
+acc6 has been created at 35
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc6 has been created at 6
+acc7 has been created at 7
+acc8 has been created at 8
+acc9 has been created at 9
+acc10 has been created at 10
+acc1 has 48
+acc2 has 30
+acc3 has 680
+acc4 has 326
+acc5 has 73
+acc6 has 349
+acc7 has 65
+acc8 has 547
+acc9 has 452
+acc6 has 113
+acc5 has 309
+acc1 has 568
+acc2 has 739
+acc3 has 1432
+acc4 has 708
+acc5 has 830
+acc6 has 438
+acc7 has 599
+acc8 has 1244
+acc9 has 822
+acc2 has 718
+acc1 has 589
+acc9 has 704
+acc8 has 1362
+acc8 has 1165
+acc4 has 905
+acc4 has 713
+acc10 has 192
+acc5 has 1
+acc1 has 1418
+acc7 has 148
+acc10 has 643
+acc9 has 123
+acc7 has 729
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc6 has been created at 6
+acc7 has been created at 7
+acc8 has been created at 8
+acc9 has been created at 9
+acc10 has been created at 10
+acc1 has 4
+acc2 has 820
+acc3 has 798
+acc4 has 949
+acc5 has 470
+acc6 has 94
+acc7 has 596
+acc8 has 893
+acc9 has 504
+acc3 has 336
+acc4 has 1411
+acc5 has 258
+acc6 has 306
+acc2 has 53
+acc1 has 771
+acc1 has 525
+acc7 has 842
+acc8 has 589
+acc2 has 357
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc6 has been created at 6
+acc7 has been created at 7
+...............acc8 has been created at 8
+acc9 has been created at 9
+acc10 has been created at 10
+acc1 has 20
+acc2 has 236
+acc3 has 444
+acc4 has 540
+acc5 has 460
+acc6 has 254
+acc7 has 946
+acc8 has 401
+acc9 has 398
+acc3 has 311
+acc7 has 1079
+acc1 has 959
+acc2 has 1007
+acc3 has 438
+acc4 has 1305
+acc5 has 735
+acc6 has 915
+acc7 has 1119
+acc8 has 943
+acc9 has 593
+acc5 has 515
+acc6 has 1135
+acc4 has 659
+acc7 has 1765
+acc2 has 725
+acc5 has 797
+acc3 has 112
+acc10 has 326
+acc1 has 688
+acc2 has 996
+acc4 has 523
+acc1 has 824
+account1 has been created at 1
+account1 has 2000
+account1 has 1900
+account1 has 1700
+account1 has 1800
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2000
+account2 has 1000
+account1 has 1900
+account2 has 800
+account2 has 500
+account1 has 1500
+account1 has 1600
+account2 has 600
+account1 has 1710
+account2 has 710
+account1 has been created at 1
+account1 has 2000
+account1 has 1900
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2000
+account2 has 1000
+account1 has 1900
+account2 has 800
+account1 has been created at 1
+account1 has 2000
+account1 has 1100
+account1 has 0
+account1 has 0
+account1 has 100
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2000
+account2 has 1000
+account1 has 1900
+account2 has 800
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 1000
+account2 has 1000
+account3 has 1000
+account2 has 900
+account2 has 800
+account3 has 900
+account1 has 1100
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2000
+account1 has 1000
+account1 has 0
+account1 has 100
+account1 has 220
+account1 has 320
+account1 has 440
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc6 has been created at 6
+acc7 has been created at 7
+acc8 has been created at 8
+acc9 has been created at 9
+acc10 has been created at 10
+acc1 has 5620
+acc2 has 9057
+acc3 has 5323
+acc4 has 9128
+acc5 has 5363
+acc6 has 8896
+acc7 has 8871
+acc8 has 8206
+acc9 has 9165
+acc1 has 5142
+acc2 has 8614
+acc3 has 5175
+acc4 has 8694
+acc5 has 5195
+acc6 has 8436
+acc7 has 8612
+acc8 has 7849
+acc9 has 8784
+acc1 has 6136
+acc2 has 8798
+acc3 has 5644
+acc4 has 9156
+acc5 has 5900
+acc6 has 9366
+acc7 has 9414
+acc8 has 8387
+acc9 has 9287
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc6 has been created at 6
+acc7 has been created at 7
+acc8 has been created at 8
+acc9 has been created at 9
+acc10 has been created at 10
+acc1 has 6460
+acc2 has 6555
+acc3 has 6648
+acc4 has 7372
+acc5 has 5964
+acc6 has 6559
+acc7 has 8653
+acc8 has 8284
+acc9 has 8832
+acc1 has 6326
+acc2 has 6062
+acc3 has 6155
+acc4 has 7116
+acc5 has 5539
+acc6 has 6186
+acc7 has 8495
+acc8 has 8073
+acc9 has 8363
+acc1 has 6641
+acc2 has 6961
+acc3 has 6377
+acc4 has 7640
+acc5 has 5843
+acc6 has 6640
+acc7 has 9373
+acc8 has 8562
+acc9 has 8470
+acc1 has 6355
+acc2 has 6596
+acc3 has 6152
+acc4 has 7157
+acc5 has 5649
+acc6 has 6254
+acc7 has 8981
+acc8 has 8272
+acc9 has 8221
+account1 has been created at 1
+account2 has been created at 2
+account1 has 1000
+account2 has 1000
+account1 has 2250
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account4 has been created at 4
+account1 has 1000
+account2 has 1000
+account3 has 1000
+account4 has 1000
+account1 has 500
+account2 has 1500
+account1 has 400
+account4 has 1100
+account3 has 800
+account2 has 1700
+account3 has 600
+account4 has 600
+account1 has been created at 1
+account2 has been created at 2
+account1 has 1000
+account2 has 1000
+account1 has 800
+account2 has 500
+account1 has 1414
+Running test: test_level_4_case_04_basic_get_balance
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 1000
+account2 has 2000
+account3 has 3000
+account1 has 900
+account2 has 2100
+account2 has 1900
+account3 has 2700
+account2 has 2200
+account1 has 500
+Querying balance for account1 at time 7
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account2'), (4, 'Deposit', 1000, 1000, 'account1'), (5, 'Deposit', 2000, 2000, 'account2'), (7, 'Transfer In', 100, 2100, 'account2'), (7, 'Transfer Out', 100, 900, 'account1'), (8, 'Pay', 200, 1900, 'account2'), (9, 'Transfer In', 300, 2200, 'account2'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (4, 'Deposit', 1000, 1000, 'account1'), (7, 'Transfer Out', 100, 900, 'account1'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Closest index: 2, Closest timestamp: 7
+Querying balance for account1 at time 9
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account2'), (4, 'Deposit', 1000, 1000, 'account1'), (5, 'Deposit', 2000, 2000, 'account2'), (7, 'Transfer In', 100, 2100, 'account2'), (7, 'Transfer Out', 100, 900, 'account1'), (8, 'Pay', 200, 1900, 'account2'), (9, 'Transfer In', 300, 2200, 'account2'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (4, 'Deposit', 1000, 1000, 'account1'), (7, 'Transfer Out', 100, 900, 'account1'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Closest index: 2, Closest timestamp: 7
+Querying balance for account1 at time 13
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account2'), (4, 'Deposit', 1000, 1000, 'account1'), (5, 'Deposit', 2000, 2000, 'account2'), (7, 'Transfer In', 100, 2100, 'account2'), (7, 'Transfer Out', 100, 900, 'account1'), (8, 'Pay', 200, 1900, 'account2'), (9, 'Transfer In', 300, 2200, 'account2'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (4, 'Deposit', 1000, 1000, 'account1'), (7, 'Transfer Out', 100, 900, 'account1'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Closest index: 4, Closest timestamp: 13
+Querying balance for account3 at time 15
+Full transaction list: [(3, 'Account Creation', 0, 0, 'account3'), (6, 'Deposit', 3000, 3000, 'account3'), (9, 'Transfer Out', 300, 2700, 'account3')]
+Searched transaction list: [(3, 'Account Creation', 0, 0, 'account3'), (6, 'Deposit', 3000, 3000, 'account3'), (9, 'Transfer Out', 300, 2700, 'account3')]
+Closest index: 2, Closest timestamp: 9
+account1 has been created at 1
+account1 has 1000
+account1 has 700
+account1 has 500
+account1 has 400
+Querying balance for account1 at time 5
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1')]
+Closest index: 4, Closest timestamp: 5
+Querying balance for account1 at time 86400002
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Closest index: 4, Closest timestamp: 5
+Querying balance for account1 at time 86400003
+...FFFull transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Closest index: 5, Closest timestamp: 86400003
+Querying balance for account1 at time 86400004
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Closest index: 6, Closest timestamp: 86400004
+Querying balance for account1 at time 86400005
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Closest index: 7, Closest timestamp: 86400005
+Querying balance for account1 at time 86400010
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Closest index: 7, Closest timestamp: 86400005
+Running test: test_level_4_case_06_get_balance_edge_cases
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 1000
+account2 has 2000
+account3 has 3000
+account1 has 900
+account2 has 1800
+account3 has 2700
+account1 has 500
+account2 has been created at 20
+account2 has 2000
+Querying balance for account2 at time 25
+Full transaction list: [(20, 'Account Creation', 0, 0, 'account2'), (21, 'Deposit', 2000, 2000, 'account2')]
+Searched transaction list: [(20, 'Account Creation', 0, 0, 'account2'), (21, 'Deposit', 2000, 2000, 'account2')]
+Closest index: 1, Closest timestamp: 21
+account1 has been created at 1
+account2 has been created at 2
+account1 has 500
+account2 has 250
+Running test: test_level_4_case_08_all_operations_1
+account1 has been created at 1
+account4 has been created at 2
+account3 has been created at 3
+account2 has been created at 4
+account1 has 1000
+account1 has 500
+account2 has 500
+account1 has 400
+account4 has 100
+account2 has 1500
+account3 has 1000
+account3 has 800
+account2 has 1700
+account3 has 600
+account4 has 1100
+account4 has 600
+Querying balance for account1 at time 17
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (5, 'Deposit', 1000, 1000, 'account1'), (6, 'Transfer Out', 500, 500, 'account1'), (7, 'Transfer Out', 100, 400, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (5, 'Deposit', 1000, 1000, 'account1'), (6, 'Transfer Out', 500, 500, 'account1'), (7, 'Transfer Out', 100, 400, 'account1')]
+Closest index: 3, Closest timestamp: 7
+Querying balance for account4 at time 25
+Full transaction list: [(2, 'Account Creation', 0, 0, 'account4'), (7, 'Transfer In', 100, 100, 'account4'), (13, 'Deposit', 1000, 1100, 'account4'), (14, 'Pay', 500, 600, 'account4')]
+Searched transaction list: [(2, 'Account Creation', 0, 0, 'account4'), (7, 'Transfer In', 100, 100, 'account4'), (13, 'Deposit', 1000, 1100, 'account4'), (14, 'Pay', 500, 600, 'account4')]
+Closest index: 3, Closest timestamp: 14
+Querying balance for account1 at time 15
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (5, 'Deposit', 1000, 1000, 'account1'), (6, 'Transfer Out', 500, 500, 'account1'), (7, 'Transfer Out', 100, 400, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (5, 'Deposit', 1000, 1000, 'account1'), (6, 'Transfer Out', 500, 500, 'account1'), (7, 'Transfer Out', 100, 400, 'account1')]
+Closest index: 3, Closest timestamp: 7
+Querying balance for account2 at time 14
+Full transaction list: [(3, 'Account Creation', 0, 0, 'account3'), (4, 'Account Creation', 0, 0, 'account2'), (6, 'Transfer In', 500, 500, 'account2'), (8, 'Deposit', 1000, 1500, 'account2'), (10, 'Deposit', 1000, 1000, 'account3'), (11, 'Transfer In', 200, 1700, 'account2'), (11, 'Transfer Out', 200, 800, 'account3'), (12, 'Pay', 200, 600, 'account3'), (19, 'Merged Account with account3', 600, 2300, 'account2')]
+Searched transaction list: [(4, 'Account Creation', 0, 0, 'account2'), (6, 'Transfer In', 500, 500, 'account2'), (8, 'Deposit', 1000, 1500, 'account2'), (11, 'Transfer In', 200, 1700, 'account2'), (19, 'Merged Account with account3', 600, 2300, 'account2')]
+Closest index: 3, Closest timestamp: 11
+Running test: test_level_4_case_09_all_operations_2
+account1 has been created at 1
+account4 has been created at 2
+account3 has been created at 3
+account2 has been created at 4
+account1 has 1000
+account1 has 500
+account2 has 500
+account1 has 400
+account4 has 100
+account2 has 1500
+account3 has 1000
+account3 has 800
+account2 has 1700
+account3 has 600
+account4 has 1100
+account4 has 600
+account1 has 3400
+Querying balance for account1 at time 25
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account4'), (3, 'Account Creation', 0, 0, 'account3'), (4, 'Account Creation', 0, 0, 'account2'), (5, 'Deposit', 1000, 1000, 'account1'), (6, 'Transfer In', 500, 500, 'account2'), (6, 'Transfer Out', 500, 500, 'account1'), (7, 'Transfer In', 100, 100, 'account4'), (7, 'Transfer Out', 100, 400, 'account1'), (8, 'Deposit', 1000, 1500, 'account2'), (10, 'Deposit', 1000, 1000, 'account3'), (11, 'Transfer In', 200, 1700, 'account2'), (11, 'Transfer Out', 200, 800, 'account3'), (12, 'Pay', 200, 600, 'account3'), (13, 'Deposit', 1000, 1100, 'account4'), (14, 'Pay', 500, 600, 'account4'), (17, 'Merged Account with account4', 600, 1200, 'account3'), (18, 'Merged Account with account3', 1200, 2900, 'account2'), (19, 'Merged Account with account2', 2900, 3300, 'account1'), (20, 'Deposit', 100, 3400, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (5, 'Deposit', 1000, 1000, 'account1'), (6, 'Transfer Out', 500, 500, 'account1'), (7, 'Transfer Out', 100, 400, 'account1'), (19, 'Merged Account with account2', 2900, 3300, 'account1'), (20, 'Deposit', 100, 3400, 'account1')]
+Closest index: 5, Closest timestamp: 20
+Running test: test_level_4_case_10_all_operations_3
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+F..
+======================================================================
+FAIL: test_level_4_case_08_all_operations_1 (level_4_tests.Level4Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/shreepatel527/chem_274b/banking-system/tests/level_4_tests.py", line 159, in test_level_4_case_08_all_operations_1
+    self.assertEqual(self.system.get_balance(28, 'account3', 13), 600)
+Exception: None != 600
+
+======================================================================
+FAIL: test_level_4_case_09_all_operations_2 (level_4_tests.Level4Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/shreepatel527/chem_274b/banking-system/tests/level_4_tests.py", line 196, in test_level_4_case_09_all_operations_2
+    self.assertEqual(self.system.get_balance(26, 'account2', 15), 1700)
+Exception: None != 1700
+
+======================================================================
+FAIL: test_level_4_case_10_all_operations_3 (level_4_tests.Level4Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/shreepatel527/chem_274b/banking-system/tests/level_4_tests.py", line 269, in test_level_4_case_10_all_operations_3
+    self.assertEqual(self.system.get_balance(86400043, 'acc2', 19), 8094)
+Exception: None != 8094
+
+----------------------------------------------------------------------
+Ran 42 tests in 0.004s
+
+FAILED (failures=3)
+acc5 has been created at 5
+acc6 has been created at 6
+acc7 has been created at 7
+acc8 has been created at 8
+acc9 has been created at 9
+acc10 has been created at 10
+acc1 has 7746
+acc2 has 8094
+acc3 has 6204
+acc4 has 7335
+acc5 has 9193
+acc6 has 6054
+acc7 has 9180
+acc8 has 5543
+acc9 has 6462
+acc1 has 7517
+acc2 has 7861
+acc3 has 6095
+acc4 has 7206
+acc5 has 9022
+acc6 has 5848
+acc7 has 8936
+acc8 has 5421
+acc9 has 6226
+acc7 has 8792
+acc1 has 7661
+acc3 has 5868
+acc2 has 8088
+acc3 has 5698
+acc4 has 7376
+acc4 has 7252
+acc2 has 8212
+acc7 has 8632
+acc6 has 6008
+acc9 has 5996
+acc3 has 5928
+acc1 has 7539
+acc8 has 5543
+Querying balance for acc1 at time 2
+Full transaction list: [(1, 'Account Creation', 0, 0, 'acc1'), (2, 'Account Creation', 0, 0, 'acc2'), (3, 'Account Creation', 0, 0, 'acc3'), (4, 'Account Creation', 0, 0, 'acc4'), (5, 'Account Creation', 0, 0, 'acc5'), (6, 'Account Creation', 0, 0, 'acc6'), (7, 'Account Creation', 0, 0, 'acc7'), (8, 'Account Creation', 0, 0, 'acc8'), (9, 'Account Creation', 0, 0, 'acc9'), (10, 'Account Creation', 0, 0, 'acc10'), (12, 'Deposit', 7746, 7746, 'acc1'), (13, 'Deposit', 8094, 8094, 'acc2'), (14, 'Deposit', 6204, 6204, 'acc3'), (15, 'Deposit', 7335, 7335, 'acc4'), (16, 'Deposit', 9193, 9193, 'acc5'), (17, 'Deposit', 6054, 6054, 'acc6'), (18, 'Deposit', 9180, 9180, 'acc7'), (19, 'Deposit', 5543, 5543, 'acc8'), (20, 'Deposit', 6462, 6462, 'acc9'), (21, 'Pay', 229, 7517, 'acc1'), (22, 'Pay', 233, 7861, 'acc2'), (23, 'Pay', 109, 6095, 'acc3'), (24, 'Pay', 129, 7206, 'acc4'), (25, 'Pay', 171, 9022, 'acc5'), (26, 'Pay', 206, 5848, 'acc6'), (27, 'Pay', 244, 8936, 'acc7'), (28, 'Pay', 122, 5421, 'acc8'), (29, 'Pay', 236, 6226, 'acc9'), (32, 'Transfer In', 144, 7661, 'acc1'), (32, 'Transfer Out', 144, 8792, 'acc7'), (33, 'Transfer In', 227, 8088, 'acc2'), (33, 'Transfer Out', 227, 5868, 'acc3'), (35, 'Transfer In', 170, 7376, 'acc4'), (35, 'Transfer Out', 170, 5698, 'acc3'), (36, 'Transfer In', 124, 8212, 'acc2'), (36, 'Transfer Out', 124, 7252, 'acc4'), (38, 'Transfer In', 160, 6008, 'acc6'), (38, 'Transfer Out', 160, 8632, 'acc7'), (39, 'Transfer In', 230, 5928, 'acc3'), (39, 'Transfer Out', 230, 5996, 'acc9'), (40, 'Transfer In', 122, 5543, 'acc8'), (40, 'Transfer Out', 122, 7539, 'acc1'), (42, 'Merged Account with acc2', 8212, 15751, 'acc1'), (43, 'Merged Account with acc3', 5928, 21679, 'acc1'), (44, 'Merged Account with acc4', 7252, 28931, 'acc1'), (45, 'Merged Account with acc5', 9022, 37953, 'acc1'), (46, 'Merged Account with acc6', 6008, 43961, 'acc1'), (47, 'Merged Account with acc7', 8632, 52593, 'acc1'), (48, 'Merged Account with acc8', 5543, 58136, 'acc1'), (49, 'Merged Account with acc9', 5996, 64132, 'acc1'), (50, 'Merged Account with acc10', 0, 64132, 'acc1'), (86400021, 'Cashback', 4, 64136, 'acc1'), (86400022, 'Cashback', 4, 64140, 'acc1'), (86400023, 'Cashback', 2, 64142, 'acc1'), (86400024, 'Cashback', 2, 64144, 'acc1'), (86400025, 'Cashback', 3, 64147, 'acc1'), (86400026, 'Cashback', 4, 64151, 'acc1'), (86400027, 'Cashback', 4, 64155, 'acc1'), (86400028, 'Cashback', 2, 64157, 'acc1'), (86400029, 'Cashback', 4, 64161, 'acc1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'acc1'), (12, 'Deposit', 7746, 7746, 'acc1'), (21, 'Pay', 229, 7517, 'acc1'), (32, 'Transfer In', 144, 7661, 'acc1'), (40, 'Transfer Out', 122, 7539, 'acc1'), (42, 'Merged Account with acc2', 8212, 15751, 'acc1'), (43, 'Merged Account with acc3', 5928, 21679, 'acc1'), (44, 'Merged Account with acc4', 7252, 28931, 'acc1'), (45, 'Merged Account with acc5', 9022, 37953, 'acc1'), (46, 'Merged Account with acc6', 6008, 43961, 'acc1'), (47, 'Merged Account with acc7', 8632, 52593, 'acc1'), (48, 'Merged Account with acc8', 5543, 58136, 'acc1'), (49, 'Merged Account with acc9', 5996, 64132, 'acc1'), (50, 'Merged Account with acc10', 0, 64132, 'acc1'), (86400021, 'Cashback', 4, 64136, 'acc1'), (86400022, 'Cashback', 4, 64140, 'acc1'), (86400023, 'Cashback', 2, 64142, 'acc1'), (86400024, 'Cashback', 2, 64144, 'acc1'), (86400025, 'Cashback', 3, 64147, 'acc1'), (86400026, 'Cashback', 4, 64151, 'acc1'), (86400027, 'Cashback', 4, 64155, 'acc1'), (86400028, 'Cashback', 2, 64157, 'acc1'), (86400029, 'Cashback', 4, 64161, 'acc1')]
+Closest index: 0, Closest timestamp: 1
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 1000
+account2 has 2000
+account3 has 3000
+account1 has 900
+account2 has 2100
+account2 has 1900
+account3 has 2700
+account2 has 2200
+account1 has 500
+Querying balance for account1 at time 7
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account2'), (4, 'Deposit', 1000, 1000, 'account1'), (5, 'Deposit', 2000, 2000, 'account2'), (7, 'Transfer In', 100, 2100, 'account2'), (7, 'Transfer Out', 100, 900, 'account1'), (8, 'Pay', 200, 1900, 'account2'), (9, 'Transfer In', 300, 2200, 'account2'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (4, 'Deposit', 1000, 1000, 'account1'), (7, 'Transfer Out', 100, 900, 'account1'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Closest index: 2, Closest timestamp: 7
+Querying balance for account1 at time 9
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account2'), (4, 'Deposit', 1000, 1000, 'account1'), (5, 'Deposit', 2000, 2000, 'account2'), (7, 'Transfer In', 100, 2100, 'account2'), (7, 'Transfer Out', 100, 900, 'account1'), (8, 'Pay', 200, 1900, 'account2'), (9, 'Transfer In', 300, 2200, 'account2'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (4, 'Deposit', 1000, 1000, 'account1'), (7, 'Transfer Out', 100, 900, 'account1'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Closest index: 2, Closest timestamp: 7
+Querying balance for account1 at time 13
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account2'), (4, 'Deposit', 1000, 1000, 'account1'), (5, 'Deposit', 2000, 2000, 'account2'), (7, 'Transfer In', 100, 2100, 'account2'), (7, 'Transfer Out', 100, 900, 'account1'), (8, 'Pay', 200, 1900, 'account2'), (9, 'Transfer In', 300, 2200, 'account2'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (4, 'Deposit', 1000, 1000, 'account1'), (7, 'Transfer Out', 100, 900, 'account1'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Closest index: 4, Closest timestamp: 13
+Querying balance for account3 at time 15
+Full transaction list: [(3, 'Account Creation', 0, 0, 'account3'), (6, 'Deposit', 3000, 3000, 'account3'), (9, 'Transfer Out', 300, 2700, 'account3')]
+Searched transaction list: [(3, 'Account Creation', 0, 0, 'account3'), (6, 'Deposit', 3000, 3000, 'account3'), (9, 'Transfer Out', 300, 2700, 'account3')]
+Closest index: 2, Closest timestamp: 9
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2000
+account2 has 1000
+account1 has 1500
+account2 has 1500
+...................account1 has been created at 1
+account2 has been created at 2
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2500
+account1 has 3000
+account2 has 1000
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2000
+account2 has 1000
+account1 has 1500
+account2 has 1500
+account1 has 1600
+account2 has 1600
+account1 has been created at 1
+account2 has been created at 3
+account1 has been created at 1
+account2 has been created at 2
+account1 has 100
+account2 has 100
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2500
+account1 has 3000
+account2 has 500
+account2 has 1000
+account1 has 25
+account2 has 3975
+account3 has been created at 13
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc3 has 1000
+acc2 has 1000
+acc3 has 901
+acc2 has 1099
+acc3 has 801
+acc2 has 1199
+acc3 has 700
+acc2 has 1300
+acc3 has 575
+acc1 has 125
+acc1 has 225
+acc2 has 1400
+acc3 has 675
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc1 has 25
+acc4 has 333
+acc1 has 95
+acc1 has 170
+acc2 has 10
+acc2 has 25
+acc4 has 555
+acc3 has 89
+acc2 has 100
+acc3 has 189
+acc2 has 133
+acc1 has 175
+acc2 has 200
+acc3 has 200
+acc3 has 439
+acc1 has 300
+acc3 has 500
+acc4 has 600
+acc1 has 175
+acc2 has 325
+acc1 has 130
+acc2 has 370
+acc1 has 2
+acc2 has 498
+acc4 has 5
+acc3 has 1095
+acc2 has 4
+acc3 has 1589
+acc3 has 1700
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc1 has 1000
+acc2 has 2000
+acc3 has 3000
+acc4 has 2000
+acc5 has 1000
+acc6 has been created at 16
+acc6 has 1000
+acc6 has 901
+acc1 has 1099
+acc6 has 899
+acc2 has 2002
+acc6 has 833
+acc3 has 3066
+acc6 has 831
+acc1 has 1101
+acc6 has 765
+acc3 has 3132
+acc6 has 666
+acc2 has 2101
+acc6 has 567
+acc1 has 1200
+acc6 has 501
+acc4 has 2066
+acc6 has 434
+acc5 has 1067
+acc6 has 368
+acc5 has 1133
+acc6 has 269
+acc2 has 2200
+acc6 has 201
+acc3 has 3200
+acc6 has 133
+acc4 has 2134
+acc6 has 67
+acc4 has 2200
+acc6 has 0
+acc5 has 1200
+acc1 has 2000
+acc2 has 3000
+acc3 has 4000
+acc4 has 3000
+acc5 has 2000
+acc6 has 1000
+acc6 has 9
+acc3 has 4991
+acc6 has 8
+acc3 has 4992
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc6 has been created at 6
+acc7 has been created at 7
+acc8 has been created at 8
+acc9 has been created at 9
+acc10 has been created at 10
+acc1 has 741
+acc2 has 703
+acc3 has 806
+acc4 has 785
+acc5 has 902
+acc6 has 927
+acc7 has 155
+acc8 has 267
+acc9 has 691
+acc1 has 1611
+acc2 has 1630
+acc3 has 910
+acc4 has 1679
+acc5 has 1238
+acc6 has 1514
+acc7 has 1083
+acc8 has 441
+acc9 has 719
+acc1 has 2028
+acc2 has 1707
+acc3 has 1016
+acc4 has 1808
+acc5 has 1565
+acc6 has 2000
+acc7 has 2056
+acc8 has 1036
+acc9 has 1180
+acc1 has 2242
+acc2 has 1912
+acc3 has 1341
+acc4 has 2449
+acc5 has 2496
+acc6 has 2698
+acc7 has 2400
+acc8 has 1373
+acc9 has 1618
+acc1 has 2885
+acc2 has 2443
+acc3 has 2166
+acc4 has 3311
+acc5 has 3000
+acc6 has 3113
+acc7 has 2484
+acc8 has 1585
+acc9 has 2205
+acc1 has 2921
+acc2 has 2650
+acc3 has 2263
+acc4 has 3397
+acc5 has 3195
+acc6 has 3373
+acc7 has 3195
+acc8 has 2368
+acc9 has 2496
+acc1 has 3628
+acc2 has 2913
+acc3 has 2431
+acc4 has 4036
+acc5 has 3316
+acc6 has 4301
+acc7 has 3219
+acc8 has 2642
+acc9 has 3219
+acc1 has 4508
+acc2 has 3775
+acc3 has 2656
+acc4 has 4624
+acc5 has 3560
+acc6 has 4359
+acc7 has 3233
+acc8 has 3461
+acc9 has 3880
+acc1 has 4816
+acc2 has 4062
+acc3 has 2797
+acc4 has 5336
+acc5 has 4223
+acc6 has 4703
+acc7 has 3848
+acc8 has 4200
+acc9 has 4339
+acc1 has 4973
+acc2 has 5007
+acc3 has 3451
+acc4 has 5617
+acc5 has 4793
+acc6 has 5556
+acc7 has 4292
+acc8 has 4361
+acc9 has 4508
+acc6 has 4849
+acc1 has 5680
+acc2 has 4568
+acc9 has 4947
+acc5 has 4673
+acc3 has 3571
+acc3 has 3394
+acc6 has 5026
+acc2 has 4450
+acc1 has 5798
+acc6 has 4482
+acc7 has 4836
+acc1 has 5227
+acc7 has 5407
+acc9 has 4851
+acc1 has 5323
+acc5 has 4014
+acc4 has 6276
+acc1 has 4523
+acc10 has 800
+acc4 has 6230
+acc10 has 846
+acc2 has 3554
+acc4 has 7126
+acc2 has 3272
+acc6 has 4764
+acc1 has 4421
+acc6 has 4866
+acc3 has 3085
+acc1 has 4730
+acc2 has 2872
+acc8 has 4761
+acc2 has 2787
+acc10 has 931
+acc2 has 1953
+acc3 has 3919
+acc10 has 516
+acc4 has 7541
+acc1 has 4518
+acc4 has 7753
+acc5 has 3708
+acc9 has 5157
+acc2 has 1210
+acc10 has 1259
+acc4 has 6895
+acc6 has 5724
+acc7 has 5338
+acc1 has 4587
+acc9 has 4940
+acc7 has 5555
+acc8 has 3771
+acc9 has 5930
+acc6 has 5643
+acc9 has 6011
+acc9 has 5202
+acc5 has 4517
+acc4 has 6843
+acc7 has 5607
+acc10 has 357
+acc2 has 2112
+acc9 has 4281
+acc6 has 6564
+acc8 has 3367
+acc6 has 6968
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 1000
+account2 has 1000
+account3 has 1000
+account2 has 900
+account3 has 1100
+account2 has 800
+account1 has 1100
+account3 has 1000
+account1 has 1200
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 500
+account2 has 500
+account3 has 750
+account2 has 261
+account3 has 989
+account3 has 639
+account1 has 850
+account2 has 200
+account1 has 911
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 1000
+account2 has 1000
+account3 has 1000
+account2 has 901
+account3 has 1099
+account3 has 899
+account1 has 1200
+account3 has 799
+account1 has 1300
+account2 has 702
+account3 has 998
+account2 has 603
+account3 has 1097
+account2 has 599
+account1 has 1304
+account3 has 997
+account1 has 1404
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 1000
+account2 has 1000
+account3 has 1000
+account2 has 900
+account3 has 1100
+account3 has 900
+account1 has 1200
+account1 has 900
+account2 has 1200
+accountA has been created at 1
+accountC has been created at 2
+accountB has been created at 3
+accountA has 1000
+accountB has 1000
+accountC has 1000
+accountB has 899
+accountC has 1101
+accountB has 800
+accountA has 1099
+accountA has 999
+accountC has 1201
+accountA has 899
+accountB has 900
+accountC has 1002
+accountA has 1098
+accountC has 1001
+accountB has 901
+acc1 has been created at 1
+acc3 has been created at 2
+acc2 has been created at 3
+acc1 has 100
+acc2 has 200
+acc3 has 300
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc1 has 300
+acc2 has 350
+acc3 has 150
+acc4 has 400
+acc5 has 600
+acc1 has 280
+acc3 has 170
+acc3 has 320
+acc2 has 320
+acc1 has 310
+acc3 has 285
+acc5 has 635
+acc4 has 800
+acc5 has 595
+acc1 has 350
+acc3 has 240
+acc4 has 845
+acc4 has 795
+acc1 has 400
+acc5 has 1195
+acc3 has 185
+acc5 has 1250
+acc1 has 340
+acc2 has 380
+acc6 has been created at 35
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc6 has been created at 6
+acc7 has been created at 7
+acc8 has been created at 8
+acc9 has been created at 9
+acc10 has been created at 10
+acc1 has 48
+acc2 has 30
+acc3 has 680
+acc4 has 326
+acc5 has 73
+acc6 has 349
+acc7 has 65
+acc8 has 547
+acc9 has 452
+acc6 has 113
+acc5 has 309
+acc1 has 568
+acc2 has 739
+acc3 has 1432
+acc4 has 708
+acc5 has 830
+acc6 has 438
+acc7 has 599
+acc8 has 1244
+acc9 has 822
+acc2 has 718
+acc1 has 589
+acc9 has 704
+acc8 has 1362
+acc8 has 1165
+acc4 has 905
+acc4 has 713
+acc10 has 192
+acc5 has 1
+acc1 has 1418
+acc7 has 148
+acc10 has 643
+acc9 has 123
+acc7 has 729
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc6 has been created at 6
+acc7 has been created at 7
+acc8 has been created at 8
+acc9 has been created at 9
+acc10 has been created at 10
+acc1 has 4
+acc2 has 820
+acc3 has 798
+acc4 has 949
+acc5 has 470
+acc6 has 94
+acc7 has 596
+acc8 has 893
+acc9 has 504
+acc3 has 336
+acc4 has 1411
+acc5 has 258
+acc6 has 306
+acc2 has 53
+acc1 has 771
+acc1 has 525
+acc7 has 842
+acc8 has 589
+acc2 has 357
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc6 has been created at 6
+acc7 has been created at 7
+...............acc8 has been created at 8
+acc9 has been created at 9
+acc10 has been created at 10
+acc1 has 20
+acc2 has 236
+acc3 has 444
+acc4 has 540
+acc5 has 460
+acc6 has 254
+acc7 has 946
+acc8 has 401
+acc9 has 398
+acc3 has 311
+acc7 has 1079
+acc1 has 959
+acc2 has 1007
+acc3 has 438
+acc4 has 1305
+acc5 has 735
+acc6 has 915
+acc7 has 1119
+acc8 has 943
+acc9 has 593
+acc5 has 515
+acc6 has 1135
+acc4 has 659
+acc7 has 1765
+acc2 has 725
+acc5 has 797
+acc3 has 112
+acc10 has 326
+acc1 has 688
+acc2 has 996
+acc4 has 523
+acc1 has 824
+account1 has been created at 1
+account1 has 2000
+account1 has 1900
+account1 has 1700
+account1 has 1800
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2000
+account2 has 1000
+account1 has 1900
+account2 has 800
+account2 has 500
+account1 has 1500
+account1 has 1600
+account2 has 600
+account1 has 1710
+account2 has 710
+account1 has been created at 1
+account1 has 2000
+account1 has 1900
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2000
+account2 has 1000
+account1 has 1900
+account2 has 800
+account1 has been created at 1
+account1 has 2000
+account1 has 1100
+account1 has 0
+account1 has 0
+account1 has 100
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2000
+account2 has 1000
+account1 has 1900
+account2 has 800
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 1000
+account2 has 1000
+account3 has 1000
+account2 has 900
+account2 has 800
+account3 has 900
+account1 has 1100
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2000
+account1 has 1000
+account1 has 0
+account1 has 100
+account1 has 220
+account1 has 320
+account1 has 440
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc6 has been created at 6
+acc7 has been created at 7
+acc8 has been created at 8
+acc9 has been created at 9
+acc10 has been created at 10
+acc1 has 5620
+acc2 has 9057
+acc3 has 5323
+acc4 has 9128
+acc5 has 5363
+acc6 has 8896
+acc7 has 8871
+acc8 has 8206
+acc9 has 9165
+acc1 has 5142
+acc2 has 8614
+acc3 has 5175
+acc4 has 8694
+acc5 has 5195
+acc6 has 8436
+acc7 has 8612
+acc8 has 7849
+acc9 has 8784
+acc1 has 6136
+acc2 has 8798
+acc3 has 5644
+acc4 has 9156
+acc5 has 5900
+acc6 has 9366
+acc7 has 9414
+acc8 has 8387
+acc9 has 9287
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc6 has been created at 6
+acc7 has been created at 7
+acc8 has been created at 8
+acc9 has been created at 9
+acc10 has been created at 10
+acc1 has 6460
+acc2 has 6555
+acc3 has 6648
+acc4 has 7372
+acc5 has 5964
+acc6 has 6559
+acc7 has 8653
+acc8 has 8284
+acc9 has 8832
+acc1 has 6326
+acc2 has 6062
+acc3 has 6155
+acc4 has 7116
+acc5 has 5539
+acc6 has 6186
+acc7 has 8495
+acc8 has 8073
+acc9 has 8363
+acc1 has 6641
+acc2 has 6961
+acc3 has 6377
+acc4 has 7640
+acc5 has 5843
+acc6 has 6640
+acc7 has 9373
+acc8 has 8562
+acc9 has 8470
+acc1 has 6355
+acc2 has 6596
+acc3 has 6152
+acc4 has 7157
+acc5 has 5649
+acc6 has 6254
+acc7 has 8981
+acc8 has 8272
+acc9 has 8221
+account1 has been created at 1
+account2 has been created at 2
+account1 has 1000
+account2 has 1000
+account1 has 2250
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account4 has been created at 4
+account1 has 1000
+account2 has 1000
+account3 has 1000
+account4 has 1000
+account1 has 500
+account2 has 1500
+account1 has 400
+account4 has 1100
+account3 has 800
+account2 has 1700
+account3 has 600
+account4 has 600
+account1 has been created at 1
+account2 has been created at 2
+account1 has 1000
+account2 has 1000
+account1 has 800
+account2 has 500
+account1 has 1414
+Running test: test_level_4_case_04_basic_get_balance
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 1000
+account2 has 2000
+account3 has 3000
+account1 has 900
+account2 has 2100
+account2 has 1900
+account3 has 2700
+account2 has 2200
+account1 has 500
+Querying balance for account1 at time 7
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account2'), (4, 'Deposit', 1000, 1000, 'account1'), (5, 'Deposit', 2000, 2000, 'account2'), (7, 'Transfer In', 100, 2100, 'account2'), (7, 'Transfer Out', 100, 900, 'account1'), (8, 'Pay', 200, 1900, 'account2'), (9, 'Transfer In', 300, 2200, 'account2'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (4, 'Deposit', 1000, 1000, 'account1'), (7, 'Transfer Out', 100, 900, 'account1'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Closest index: 2, Closest timestamp: 7
+Querying balance for account1 at time 9
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account2'), (4, 'Deposit', 1000, 1000, 'account1'), (5, 'Deposit', 2000, 2000, 'account2'), (7, 'Transfer In', 100, 2100, 'account2'), (7, 'Transfer Out', 100, 900, 'account1'), (8, 'Pay', 200, 1900, 'account2'), (9, 'Transfer In', 300, 2200, 'account2'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (4, 'Deposit', 1000, 1000, 'account1'), (7, 'Transfer Out', 100, 900, 'account1'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Closest index: 2, Closest timestamp: 7
+Querying balance for account1 at time 13
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account2'), (4, 'Deposit', 1000, 1000, 'account1'), (5, 'Deposit', 2000, 2000, 'account2'), (7, 'Transfer In', 100, 2100, 'account2'), (7, 'Transfer Out', 100, 900, 'account1'), (8, 'Pay', 200, 1900, 'account2'), (9, 'Transfer In', 300, 2200, 'account2'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (4, 'Deposit', 1000, 1000, 'account1'), (7, 'Transfer Out', 100, 900, 'account1'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Closest index: 4, Closest timestamp: 13
+Querying balance for account3 at time 15
+Full transaction list: [(3, 'Account Creation', 0, 0, 'account3'), (6, 'Deposit', 3000, 3000, 'account3'), (9, 'Transfer Out', 300, 2700, 'account3')]
+Searched transaction list: [(3, 'Account Creation', 0, 0, 'account3'), (6, 'Deposit', 3000, 3000, 'account3'), (9, 'Transfer Out', 300, 2700, 'account3')]
+Closest index: 2, Closest timestamp: 9
+account1 has been created at 1
+account1 has 1000
+account1 has 700
+account1 has 500
+account1 has 400
+Querying balance for account1 at time 5
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1')]
+Closest index: 4, Closest timestamp: 5
+Querying balance for account1 at time 86400002
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Closest index: 4, Closest timestamp: 5
+Querying balance for account1 at time 86400003
+.F.FFull transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Closest index: 5, Closest timestamp: 86400003
+Querying balance for account1 at time 86400004
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Closest index: 6, Closest timestamp: 86400004
+Querying balance for account1 at time 86400005
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Closest index: 7, Closest timestamp: 86400005
+Querying balance for account1 at time 86400010
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Closest index: 7, Closest timestamp: 86400005
+Running test: test_level_4_case_06_get_balance_edge_cases
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 1000
+account2 has 2000
+account3 has 3000
+account1 has 900
+account2 has 1800
+account3 has 2700
+account1 has 500
+Querying balance for account1 at time 13
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account2'), (4, 'Deposit', 1000, 1000, 'account1'), (5, 'Deposit', 2000, 2000, 'account2'), (7, 'Pay', 100, 900, 'account1'), (8, 'Pay', 200, 1800, 'account2'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 1800, 2300, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (4, 'Deposit', 1000, 1000, 'account1'), (7, 'Pay', 100, 900, 'account1'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 1800, 2300, 'account1')]
+Closest index: 4, Closest timestamp: 13
+account1 has been created at 1
+account2 has been created at 2
+account1 has 500
+account2 has 250
+Running test: test_level_4_case_08_all_operations_1
+account1 has been created at 1
+account4 has been created at 2
+account3 has been created at 3
+account2 has been created at 4
+account1 has 1000
+account1 has 500
+account2 has 500
+account1 has 400
+account4 has 100
+account2 has 1500
+account3 has 1000
+account3 has 800
+account2 has 1700
+account3 has 600
+account4 has 1100
+account4 has 600
+Querying balance for account1 at time 17
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (5, 'Deposit', 1000, 1000, 'account1'), (6, 'Transfer Out', 500, 500, 'account1'), (7, 'Transfer Out', 100, 400, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (5, 'Deposit', 1000, 1000, 'account1'), (6, 'Transfer Out', 500, 500, 'account1'), (7, 'Transfer Out', 100, 400, 'account1')]
+Closest index: 3, Closest timestamp: 7
+Querying balance for account2 at time 20
+Full transaction list: [(3, 'Account Creation', 0, 0, 'account3'), (4, 'Account Creation', 0, 0, 'account2'), (6, 'Transfer In', 500, 500, 'account2'), (8, 'Deposit', 1000, 1500, 'account2'), (10, 'Deposit', 1000, 1000, 'account3'), (11, 'Transfer In', 200, 1700, 'account2'), (11, 'Transfer Out', 200, 800, 'account3'), (12, 'Pay', 200, 600, 'account3'), (19, 'Merged Account with account3', 600, 2300, 'account2')]
+Searched transaction list: [(4, 'Account Creation', 0, 0, 'account2'), (6, 'Transfer In', 500, 500, 'account2'), (8, 'Deposit', 1000, 1500, 'account2'), (11, 'Transfer In', 200, 1700, 'account2'), (19, 'Merged Account with account3', 600, 2300, 'account2')]
+Closest index: 4, Closest timestamp: 19
+Running test: test_level_4_case_09_all_operations_2
+account1 has been created at 1
+account4 has been created at 2
+account3 has been created at 3
+account2 has been created at 4
+account1 has 1000
+account1 has 500
+account2 has 500
+account1 has 400
+account4 has 100
+account2 has 1500
+account3 has 1000
+account3 has 800
+account2 has 1700
+account3 has 600
+account4 has 1100
+account4 has 600
+account1 has 3400
+Querying balance for account1 at time 25
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account4'), (3, 'Account Creation', 0, 0, 'account3'), (4, 'Account Creation', 0, 0, 'account2'), (5, 'Deposit', 1000, 1000, 'account1'), (6, 'Transfer In', 500, 500, 'account2'), (6, 'Transfer Out', 500, 500, 'account1'), (7, 'Transfer In', 100, 100, 'account4'), (7, 'Transfer Out', 100, 400, 'account1'), (8, 'Deposit', 1000, 1500, 'account2'), (10, 'Deposit', 1000, 1000, 'account3'), (11, 'Transfer In', 200, 1700, 'account2'), (11, 'Transfer Out', 200, 800, 'account3'), (12, 'Pay', 200, 600, 'account3'), (13, 'Deposit', 1000, 1100, 'account4'), (14, 'Pay', 500, 600, 'account4'), (17, 'Merged Account with account4', 600, 1200, 'account3'), (18, 'Merged Account with account3', 1200, 2900, 'account2'), (19, 'Merged Account with account2', 2900, 3300, 'account1'), (20, 'Deposit', 100, 3400, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (5, 'Deposit', 1000, 1000, 'account1'), (6, 'Transfer Out', 500, 500, 'account1'), (7, 'Transfer Out', 100, 400, 'account1'), (19, 'Merged Account with account2', 2900, 3300, 'account1'), (20, 'Deposit', 100, 3400, 'account1')]
+Closest index: 5, Closest timestamp: 20
+Querying balance for account1 at time 15
+FFull transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account4'), (3, 'Account Creation', 0, 0, 'account3'), (4, 'Account Creation', 0, 0, 'account2'), (5, 'Deposit', 1000, 1000, 'account1'), (6, 'Transfer In', 500, 500, 'account2'), (6, 'Transfer Out', 500, 500, 'account1'), (7, 'Transfer In', 100, 100, 'account4'), (7, 'Transfer Out', 100, 400, 'account1'), (8, 'Deposit', 1000, 1500, 'account2'), (10, 'Deposit', 1000, 1000, 'account3'), (11, 'Transfer In', 200, 1700, 'account2'), (11, 'Transfer Out', 200, 800, 'account3'), (12, 'Pay', 200, 600, 'account3'), (13, 'Deposit', 1000, 1100, 'account4'), (14, 'Pay', 500, 600, 'account4'), (17, 'Merged Account with account4', 600, 1200, 'account3'), (18, 'Merged Account with account3', 1200, 2900, 'account2'), (19, 'Merged Account with account2', 2900, 3300, 'account1'), (20, 'Deposit', 100, 3400, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (5, 'Deposit', 1000, 1000, 'account1'), (6, 'Transfer Out', 500, 500, 'account1'), (7, 'Transfer Out', 100, 400, 'account1'), (19, 'Merged Account with account2', 2900, 3300, 'account1'), (20, 'Deposit', 100, 3400, 'account1')]
+Closest index: 3, Closest timestamp: 7
+Running test: test_level_4_case_10_all_operations_3
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc6 has been created at 6
+acc7 has been created at 7
+acc8 has been created at 8
+acc9 has been created at 9
+acc10 has been created at 10
+acc1 has 7746
+acc2 has 8094
+acc3 has 6204
+acc4 has 7335
+acc5 has 9193
+acc6 has 6054
+acc7 has 9180
+acc8 has 5543
+acc9 has 6462
+acc1 has 7517
+acc2 has 7861
+acc3 has 6095
+acc4 has 7206
+acc5 has 9022
+acc6 has 5848
+acc7 has 8936
+acc8 has 5421
+acc9 has 6226
+acc7 has 8792
+acc1 has 7661
+acc3 has 5868
+acc2 has 8088
+acc3 has 5698
+acc4 has 7376
+acc4 has 7252
+acc2 has 8212
+acc7 has 8632
+acc6 has 6008
+acc9 has 5996
+acc3 has 5928
+acc1 has 7539
+acc8 has 5543
+Querying balance for acc1 at time 2
+Full transaction list: [(1, 'Account Creation', 0, 0, 'acc1'), (2, 'Account Creation', 0, 0, 'acc2'), (3, 'Account Creation', 0, 0, 'acc3'), (4, 'Account Creation', 0, 0, 'acc4'), (5, 'Account Creation', 0, 0, 'acc5'), (6, 'Account Creation', 0, 0, 'acc6'), (7, 'Account Creation', 0, 0, 'acc7'), (8, 'Account Creation', 0, 0, 'acc8'), (9, 'Account Creation', 0, 0, 'acc9'), (10, 'Account Creation', 0, 0, 'acc10'), (12, 'Deposit', 7746, 7746, 'acc1'), (13, 'Deposit', 8094, 8094, 'acc2'), (14, 'Deposit', 6204, 6204, 'acc3'), (15, 'Deposit', 7335, 7335, 'acc4'), (16, 'Deposit', 9193, 9193, 'acc5'), (17, 'Deposit', 6054, 6054, 'acc6'), (18, 'Deposit', 9180, 9180, 'acc7'), (19, 'Deposit', 5543, 5543, 'acc8'), (20, 'Deposit', 6462, 6462, 'acc9'), (21, 'Pay', 229, 7517, 'acc1'), (22, 'Pay', 233, 7861, 'acc2'), (23, 'Pay', 109, 6095, 'acc3'), (24, 'Pay', 129, 7206, 'acc4'), (25, 'Pay', 171, 9022, 'acc5'), (26, 'Pay', 206, 5848, 'acc6'), (27, 'Pay', 244, 8936, 'acc7'), (28, 'Pay', 122, 5421, 'acc8'), (29, 'Pay', 236, 6226, 'acc9'), (32, 'Transfer In', 144, 7661, 'acc1'), (32, 'Transfer Out', 144, 8792, 'acc7'), (33, 'Transfer In', 227, 8088, 'acc2'), (33, 'Transfer Out', 227, 5868, 'acc3'), (35, 'Transfer In', 170, 7376, 'acc4'), (35, 'Transfer Out', 170, 5698, 'acc3'), (36, 'Transfer In', 124, 8212, 'acc2'), (36, 'Transfer Out', 124, 7252, 'acc4'), (38, 'Transfer In', 160, 6008, 'acc6'), (38, 'Transfer Out', 160, 8632, 'acc7'), (39, 'Transfer In', 230, 5928, 'acc3'), (39, 'Transfer Out', 230, 5996, 'acc9'), (40, 'Transfer In', 122, 5543, 'acc8'), (40, 'Transfer Out', 122, 7539, 'acc1'), (42, 'Merged Account with acc2', 8212, 15751, 'acc1'), (43, 'Merged Account with acc3', 5928, 21679, 'acc1'), (44, 'Merged Account with acc4', 7252, 28931, 'acc1'), (45, 'Merged Account with acc5', 9022, 37953, 'acc1'), (46, 'Merged Account with acc6', 6008, 43961, 'acc1'), (47, 'Merged Account with acc7', 8632, 52593, 'acc1'), (48, 'Merged Account with acc8', 5543, 58136, 'acc1'), (49, 'Merged Account with acc9', 5996, 64132, 'acc1'), (50, 'Merged Account with acc10', 0, 64132, 'acc1'), (86400021, 'Cashback', 4, 64136, 'acc1'), (86400022, 'Cashback', 4, 64140, 'acc1'), (86400023, 'Cashback', 2, 64142, 'acc1'), (86400024, 'Cashback', 2, 64144, 'acc1'), (86400025, 'Cashback', 3, 64147, 'acc1'), (86400026, 'Cashback', 4, 64151, 'acc1'), (86400027, 'Cashback', 4, 64155, 'acc1'), (86400028, 'Cashback', 2, 64157, 'acc1'), (86400029, 'Cashback', 4, 64161, 'acc1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'acc1'), (12, 'Deposit', 7746, 7746, 'acc1'), (21, 'Pay', 229, 7517, 'acc1'), (32, 'Transfer In', 144, 7661, 'acc1'), (40, 'Transfer Out', 122, 7539, 'acc1'), (42, 'Merged Account with acc2', 8212, 15751, 'acc1'), (43, 'Merged Account with acc3', 5928, 21679, 'acc1'), (44, 'Merged Account with acc4', 7252, 28931, 'acc1'), (45, 'Merged Account with acc5', 9022, 37953, 'acc1'), (46, 'Merged Account with acc6', 6008, 43961, 'acc1'), (47, 'Merged Account with acc7', 8632, 52593, 'acc1'), (48, 'Merged Account with acc8', 5543, 58136, 'acc1'), (49, 'Merged Account with acc9', 5996, 64132, 'acc1'), (50, 'Merged Account with acc10', 0, 64132, 'acc1'), (86400021, 'Cashback', 4, 64136, 'acc1'), (86400022, 'Cashback', 4, 64140, 'acc1'), (86400023, 'Cashback', 2, 64142, 'acc1'), (86400024, 'Cashback', 2, 64144, 'acc1'), (86400025, 'Cashback', 3, 64147, 'acc1'), (86400026, 'Cashback', 4, 64151, 'acc1'), (86400027, 'Cashback', 4, 64155, 'acc1'), (86400028, 'Cashback', 2, 64157, 'acc1'), (86400029, 'Cashback', 4, 64161, 'acc1')]
+Closest index: 0, Closest timestamp: 1
+Querying balance for acc1 at time 19
+Full transaction list: [(1, 'Account Creation', 0, 0, 'acc1'), (2, 'Account Creation', 0, 0, 'acc2'), (3, 'Account Creation', 0, 0, 'acc3'), (4, 'Account Creation', 0, 0, 'acc4'), (5, 'Account Creation', 0, 0, 'acc5'), (6, 'Account Creation', 0, 0, 'acc6'), (7, 'Account Creation', 0, 0, 'acc7'), (8, 'Account Creation', 0, 0, 'acc8'), (9, 'Account Creation', 0, 0, 'acc9'), (10, 'Account Creation', 0, 0, 'acc10'), (12, 'Deposit', 7746, 7746, 'acc1'), (13, 'Deposit', 8094, 8094, 'acc2'), (14, 'Deposit', 6204, 6204, 'acc3'), (15, 'Deposit', 7335, 7335, 'acc4'), (16, 'Deposit', 9193, 9193, 'acc5'), (17, 'Deposit', 6054, 6054, 'acc6'), (18, 'Deposit', 9180, 9180, 'acc7'), (19, 'Deposit', 5543, 5543, 'acc8'), (20, 'Deposit', 6462, 6462, 'acc9'), (21, 'Pay', 229, 7517, 'acc1'), (22, 'Pay', 233, 7861, 'acc2'), (23, 'Pay', 109, 6095, 'acc3'), (24, 'Pay', 129, 7206, 'acc4'), (25, 'Pay', 171, 9022, 'acc5'), (26, 'Pay', 206, 5848, 'acc6'), (27, 'Pay', 244, 8936, 'acc7'), (28, 'Pay', 122, 5421, 'acc8'), (29, 'Pay', 236, 6226, 'acc9'), (32, 'Transfer In', 144, 7661, 'acc1'), (32, 'Transfer Out', 144, 8792, 'acc7'), (33, 'Transfer In', 227, 8088, 'acc2'), (33, 'Transfer Out', 227, 5868, 'acc3'), (35, 'Transfer In', 170, 7376, 'acc4'), (35, 'Transfer Out', 170, 5698, 'acc3'), (36, 'Transfer In', 124, 8212, 'acc2'), (36, 'Transfer Out', 124, 7252, 'acc4'), (38, 'Transfer In', 160, 6008, 'acc6'), (38, 'Transfer Out', 160, 8632, 'acc7'), (39, 'Transfer In', 230, 5928, 'acc3'), (39, 'Transfer Out', 230, 5996, 'acc9'), (40, 'Transfer In', 122, 5543, 'acc8'), (40, 'Transfer Out', 122, 7539, 'acc1'), (42, 'Merged Account with acc2', 8212, 15751, 'acc1'), (43, 'Merged Account with acc3', 5928, 21679, 'acc1'), (44, 'Merged Account with acc4', 7252, 28931, 'acc1'), (45, 'Merged Account with acc5', 9022, 37953, 'acc1'), (46, 'Merged Account with acc6', 6008, 43961, 'acc1'), (47, 'Merged Account with acc7', 8632, 52593, 'acc1'), (48, 'Merged Account with acc8', 5543, 58136, 'acc1'), (49, 'Merged Account with acc9', 5996, 64132, 'acc1'), (50, 'Merged Account with acc10', 0, 64132, 'acc1'), (86400021, 'Cashback', 4, 64136, 'acc1'), (86400022, 'Cashback', 4, 64140, 'acc1'), (86400023, 'Cashback', 2, 64142, 'acc1'), (86400024, 'Cashback', 2, 64144, 'acc1'), (86400025, 'Cashback', 3, 64147, 'acc1'), (86400026, 'Cashback', 4, 64151, 'acc1'), (86400027, 'Cashback', 4, 64155, 'acc1'), (86400028, 'Cashback', 2, 64157, 'acc1'), (86400029, 'Cashback', 4, 64161, 'acc1')]
+F..
+======================================================================
+FAIL: test_level_4_case_06_get_balance_edge_cases (level_4_tests.Level4Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/shreepatel527/chem_274b/banking-system/tests/level_4_tests.py", line 114, in test_level_4_case_06_get_balance_edge_cases
+    self.assertIsNone(self.system.get_balance(16, 'account2', 13))
+Exception: 2300 is not None
+
+======================================================================
+FAIL: test_level_4_case_08_all_operations_1 (level_4_tests.Level4Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/shreepatel527/chem_274b/banking-system/tests/level_4_tests.py", line 155, in test_level_4_case_08_all_operations_1
+    self.assertIsNone(self.system.get_balance(24, 'account3', 20))
+Exception: 2300 is not None
+
+======================================================================
+FAIL: test_level_4_case_09_all_operations_2 (level_4_tests.Level4Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/shreepatel527/chem_274b/banking-system/tests/level_4_tests.py", line 196, in test_level_4_case_09_all_operations_2
+    self.assertEqual(self.system.get_balance(26, 'account2', 15), 1700)
+Exception: 400 != 1700
+
+======================================================================
+FAIL: test_level_4_case_10_all_operations_3 (level_4_tests.Level4Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/shreepatel527/chem_274b/banking-system/tests/level_4_tests.py", line 269, in test_level_4_case_10_all_operations_3
+    self.assertEqual(self.system.get_balance(86400043, 'acc2', 19), 8094)
+Exception: 7746 != 8094
+
+----------------------------------------------------------------------
+Ran 42 tests in 0.004s
+
+FAILED (failures=4)
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'acc1'), (12, 'Deposit', 7746, 7746, 'acc1'), (21, 'Pay', 229, 7517, 'acc1'), (32, 'Transfer In', 144, 7661, 'acc1'), (40, 'Transfer Out', 122, 7539, 'acc1'), (42, 'Merged Account with acc2', 8212, 15751, 'acc1'), (43, 'Merged Account with acc3', 5928, 21679, 'acc1'), (44, 'Merged Account with acc4', 7252, 28931, 'acc1'), (45, 'Merged Account with acc5', 9022, 37953, 'acc1'), (46, 'Merged Account with acc6', 6008, 43961, 'acc1'), (47, 'Merged Account with acc7', 8632, 52593, 'acc1'), (48, 'Merged Account with acc8', 5543, 58136, 'acc1'), (49, 'Merged Account with acc9', 5996, 64132, 'acc1'), (50, 'Merged Account with acc10', 0, 64132, 'acc1'), (86400021, 'Cashback', 4, 64136, 'acc1'), (86400022, 'Cashback', 4, 64140, 'acc1'), (86400023, 'Cashback', 2, 64142, 'acc1'), (86400024, 'Cashback', 2, 64144, 'acc1'), (86400025, 'Cashback', 3, 64147, 'acc1'), (86400026, 'Cashback', 4, 64151, 'acc1'), (86400027, 'Cashback', 4, 64155, 'acc1'), (86400028, 'Cashback', 2, 64157, 'acc1'), (86400029, 'Cashback', 4, 64161, 'acc1')]
+Closest index: 1, Closest timestamp: 12
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 1000
+account2 has 2000
+account3 has 3000
+account1 has 900
+account2 has 2100
+account2 has 1900
+account3 has 2700
+account2 has 2200
+account1 has 500
+Querying balance for account1 at time 7
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account2'), (4, 'Deposit', 1000, 1000, 'account1'), (5, 'Deposit', 2000, 2000, 'account2'), (7, 'Transfer In', 100, 2100, 'account2'), (7, 'Transfer Out', 100, 900, 'account1'), (8, 'Pay', 200, 1900, 'account2'), (9, 'Transfer In', 300, 2200, 'account2'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (4, 'Deposit', 1000, 1000, 'account1'), (7, 'Transfer Out', 100, 900, 'account1'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Closest index: 2, Closest timestamp: 7
+Querying balance for account1 at time 9
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account2'), (4, 'Deposit', 1000, 1000, 'account1'), (5, 'Deposit', 2000, 2000, 'account2'), (7, 'Transfer In', 100, 2100, 'account2'), (7, 'Transfer Out', 100, 900, 'account1'), (8, 'Pay', 200, 1900, 'account2'), (9, 'Transfer In', 300, 2200, 'account2'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (4, 'Deposit', 1000, 1000, 'account1'), (7, 'Transfer Out', 100, 900, 'account1'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Closest index: 2, Closest timestamp: 7
+Querying balance for account1 at time 13
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account2'), (4, 'Deposit', 1000, 1000, 'account1'), (5, 'Deposit', 2000, 2000, 'account2'), (7, 'Transfer In', 100, 2100, 'account2'), (7, 'Transfer Out', 100, 900, 'account1'), (8, 'Pay', 200, 1900, 'account2'), (9, 'Transfer In', 300, 2200, 'account2'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (4, 'Deposit', 1000, 1000, 'account1'), (7, 'Transfer Out', 100, 900, 'account1'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Closest index: 4, Closest timestamp: 13
+Querying balance for account3 at time 15
+Full transaction list: [(3, 'Account Creation', 0, 0, 'account3'), (6, 'Deposit', 3000, 3000, 'account3'), (9, 'Transfer Out', 300, 2700, 'account3')]
+Searched transaction list: [(3, 'Account Creation', 0, 0, 'account3'), (6, 'Deposit', 3000, 3000, 'account3'), (9, 'Transfer Out', 300, 2700, 'account3')]
+Closest index: 2, Closest timestamp: 9
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2000
+account2 has 1000
+account1 has 1500
+account2 has 1500
+...................account1 has been created at 1
+account2 has been created at 2
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2500
+account1 has 3000
+account2 has 1000
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2000
+account2 has 1000
+account1 has 1500
+account2 has 1500
+account1 has 1600
+account2 has 1600
+account1 has been created at 1
+account2 has been created at 3
+account1 has been created at 1
+account2 has been created at 2
+account1 has 100
+account2 has 100
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2500
+account1 has 3000
+account2 has 500
+account2 has 1000
+account1 has 25
+account2 has 3975
+account3 has been created at 13
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc3 has 1000
+acc2 has 1000
+acc3 has 901
+acc2 has 1099
+acc3 has 801
+acc2 has 1199
+acc3 has 700
+acc2 has 1300
+acc3 has 575
+acc1 has 125
+acc1 has 225
+acc2 has 1400
+acc3 has 675
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc1 has 25
+acc4 has 333
+acc1 has 95
+acc1 has 170
+acc2 has 10
+acc2 has 25
+acc4 has 555
+acc3 has 89
+acc2 has 100
+acc3 has 189
+acc2 has 133
+acc1 has 175
+acc2 has 200
+acc3 has 200
+acc3 has 439
+acc1 has 300
+acc3 has 500
+acc4 has 600
+acc1 has 175
+acc2 has 325
+acc1 has 130
+acc2 has 370
+acc1 has 2
+acc2 has 498
+acc4 has 5
+acc3 has 1095
+acc2 has 4
+acc3 has 1589
+acc3 has 1700
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc1 has 1000
+acc2 has 2000
+acc3 has 3000
+acc4 has 2000
+acc5 has 1000
+acc6 has been created at 16
+acc6 has 1000
+acc6 has 901
+acc1 has 1099
+acc6 has 899
+acc2 has 2002
+acc6 has 833
+acc3 has 3066
+acc6 has 831
+acc1 has 1101
+acc6 has 765
+acc3 has 3132
+acc6 has 666
+acc2 has 2101
+acc6 has 567
+acc1 has 1200
+acc6 has 501
+acc4 has 2066
+acc6 has 434
+acc5 has 1067
+acc6 has 368
+acc5 has 1133
+acc6 has 269
+acc2 has 2200
+acc6 has 201
+acc3 has 3200
+acc6 has 133
+acc4 has 2134
+acc6 has 67
+acc4 has 2200
+acc6 has 0
+acc5 has 1200
+acc1 has 2000
+acc2 has 3000
+acc3 has 4000
+acc4 has 3000
+acc5 has 2000
+acc6 has 1000
+acc6 has 9
+acc3 has 4991
+acc6 has 8
+acc3 has 4992
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc6 has been created at 6
+acc7 has been created at 7
+acc8 has been created at 8
+acc9 has been created at 9
+acc10 has been created at 10
+acc1 has 741
+acc2 has 703
+acc3 has 806
+acc4 has 785
+acc5 has 902
+acc6 has 927
+acc7 has 155
+acc8 has 267
+acc9 has 691
+acc1 has 1611
+acc2 has 1630
+acc3 has 910
+acc4 has 1679
+acc5 has 1238
+acc6 has 1514
+acc7 has 1083
+acc8 has 441
+acc9 has 719
+acc1 has 2028
+acc2 has 1707
+acc3 has 1016
+acc4 has 1808
+acc5 has 1565
+acc6 has 2000
+acc7 has 2056
+acc8 has 1036
+acc9 has 1180
+acc1 has 2242
+acc2 has 1912
+acc3 has 1341
+acc4 has 2449
+acc5 has 2496
+acc6 has 2698
+acc7 has 2400
+acc8 has 1373
+acc9 has 1618
+acc1 has 2885
+acc2 has 2443
+acc3 has 2166
+acc4 has 3311
+acc5 has 3000
+acc6 has 3113
+acc7 has 2484
+acc8 has 1585
+acc9 has 2205
+acc1 has 2921
+acc2 has 2650
+acc3 has 2263
+acc4 has 3397
+acc5 has 3195
+acc6 has 3373
+acc7 has 3195
+acc8 has 2368
+acc9 has 2496
+acc1 has 3628
+acc2 has 2913
+acc3 has 2431
+acc4 has 4036
+acc5 has 3316
+acc6 has 4301
+acc7 has 3219
+acc8 has 2642
+acc9 has 3219
+acc1 has 4508
+acc2 has 3775
+acc3 has 2656
+acc4 has 4624
+acc5 has 3560
+acc6 has 4359
+acc7 has 3233
+acc8 has 3461
+acc9 has 3880
+acc1 has 4816
+acc2 has 4062
+acc3 has 2797
+acc4 has 5336
+acc5 has 4223
+acc6 has 4703
+acc7 has 3848
+acc8 has 4200
+acc9 has 4339
+acc1 has 4973
+acc2 has 5007
+acc3 has 3451
+acc4 has 5617
+acc5 has 4793
+acc6 has 5556
+acc7 has 4292
+acc8 has 4361
+acc9 has 4508
+acc6 has 4849
+acc1 has 5680
+acc2 has 4568
+acc9 has 4947
+acc5 has 4673
+acc3 has 3571
+acc3 has 3394
+acc6 has 5026
+acc2 has 4450
+acc1 has 5798
+acc6 has 4482
+acc7 has 4836
+acc1 has 5227
+acc7 has 5407
+acc9 has 4851
+acc1 has 5323
+acc5 has 4014
+acc4 has 6276
+acc1 has 4523
+acc10 has 800
+acc4 has 6230
+acc10 has 846
+acc2 has 3554
+acc4 has 7126
+acc2 has 3272
+acc6 has 4764
+acc1 has 4421
+acc6 has 4866
+acc3 has 3085
+acc1 has 4730
+acc2 has 2872
+acc8 has 4761
+acc2 has 2787
+acc10 has 931
+acc2 has 1953
+acc3 has 3919
+acc10 has 516
+acc4 has 7541
+acc1 has 4518
+acc4 has 7753
+acc5 has 3708
+acc9 has 5157
+acc2 has 1210
+acc10 has 1259
+acc4 has 6895
+acc6 has 5724
+acc7 has 5338
+acc1 has 4587
+acc9 has 4940
+acc7 has 5555
+acc8 has 3771
+acc9 has 5930
+acc6 has 5643
+acc9 has 6011
+acc9 has 5202
+acc5 has 4517
+acc4 has 6843
+acc7 has 5607
+acc10 has 357
+acc2 has 2112
+acc9 has 4281
+acc6 has 6564
+acc8 has 3367
+acc6 has 6968
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 1000
+account2 has 1000
+account3 has 1000
+account2 has 900
+account3 has 1100
+account2 has 800
+account1 has 1100
+account3 has 1000
+account1 has 1200
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 500
+account2 has 500
+account3 has 750
+account2 has 261
+account3 has 989
+account3 has 639
+account1 has 850
+account2 has 200
+account1 has 911
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 1000
+account2 has 1000
+account3 has 1000
+account2 has 901
+account3 has 1099
+account3 has 899
+account1 has 1200
+account3 has 799
+account1 has 1300
+account2 has 702
+account3 has 998
+account2 has 603
+account3 has 1097
+account2 has 599
+account1 has 1304
+account3 has 997
+account1 has 1404
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 1000
+account2 has 1000
+account3 has 1000
+account2 has 900
+account3 has 1100
+account3 has 900
+account1 has 1200
+account1 has 900
+account2 has 1200
+accountA has been created at 1
+accountC has been created at 2
+accountB has been created at 3
+accountA has 1000
+accountB has 1000
+accountC has 1000
+accountB has 899
+accountC has 1101
+accountB has 800
+accountA has 1099
+accountA has 999
+accountC has 1201
+accountA has 899
+accountB has 900
+accountC has 1002
+accountA has 1098
+accountC has 1001
+accountB has 901
+acc1 has been created at 1
+acc3 has been created at 2
+acc2 has been created at 3
+acc1 has 100
+acc2 has 200
+acc3 has 300
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc1 has 300
+acc2 has 350
+acc3 has 150
+acc4 has 400
+acc5 has 600
+acc1 has 280
+acc3 has 170
+acc3 has 320
+acc2 has 320
+acc1 has 310
+acc3 has 285
+acc5 has 635
+acc4 has 800
+acc5 has 595
+acc1 has 350
+acc3 has 240
+acc4 has 845
+acc4 has 795
+acc1 has 400
+acc5 has 1195
+acc3 has 185
+acc5 has 1250
+acc1 has 340
+acc2 has 380
+acc6 has been created at 35
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc6 has been created at 6
+acc7 has been created at 7
+acc8 has been created at 8
+acc9 has been created at 9
+acc10 has been created at 10
+acc1 has 48
+acc2 has 30
+acc3 has 680
+acc4 has 326
+acc5 has 73
+acc6 has 349
+acc7 has 65
+acc8 has 547
+acc9 has 452
+acc6 has 113
+acc5 has 309
+acc1 has 568
+acc2 has 739
+acc3 has 1432
+acc4 has 708
+acc5 has 830
+acc6 has 438
+acc7 has 599
+acc8 has 1244
+acc9 has 822
+acc2 has 718
+acc1 has 589
+acc9 has 704
+acc8 has 1362
+acc8 has 1165
+acc4 has 905
+acc4 has 713
+acc10 has 192
+acc5 has 1
+acc1 has 1418
+acc7 has 148
+acc10 has 643
+acc9 has 123
+acc7 has 729
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc6 has been created at 6
+acc7 has been created at 7
+acc8 has been created at 8
+acc9 has been created at 9
+acc10 has been created at 10
+acc1 has 4
+acc2 has 820
+acc3 has 798
+acc4 has 949
+acc5 has 470
+acc6 has 94
+acc7 has 596
+acc8 has 893
+acc9 has 504
+acc3 has 336
+acc4 has 1411
+acc5 has 258
+acc6 has 306
+acc2 has 53
+acc1 has 771
+acc1 has 525
+acc7 has 842
+acc8 has 589
+acc2 has 357
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc6 has been created at 6
+acc7 has been created at 7
+...............acc8 has been created at 8
+acc9 has been created at 9
+acc10 has been created at 10
+acc1 has 20
+acc2 has 236
+acc3 has 444
+acc4 has 540
+acc5 has 460
+acc6 has 254
+acc7 has 946
+acc8 has 401
+acc9 has 398
+acc3 has 311
+acc7 has 1079
+acc1 has 959
+acc2 has 1007
+acc3 has 438
+acc4 has 1305
+acc5 has 735
+acc6 has 915
+acc7 has 1119
+acc8 has 943
+acc9 has 593
+acc5 has 515
+acc6 has 1135
+acc4 has 659
+acc7 has 1765
+acc2 has 725
+acc5 has 797
+acc3 has 112
+acc10 has 326
+acc1 has 688
+acc2 has 996
+acc4 has 523
+acc1 has 824
+account1 has been created at 1
+account1 has 2000
+account1 has 1900
+account1 has 1700
+account1 has 1800
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2000
+account2 has 1000
+account1 has 1900
+account2 has 800
+account2 has 500
+account1 has 1500
+account1 has 1600
+account2 has 600
+account1 has 1710
+account2 has 710
+account1 has been created at 1
+account1 has 2000
+account1 has 1900
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2000
+account2 has 1000
+account1 has 1900
+account2 has 800
+account1 has been created at 1
+account1 has 2000
+account1 has 1100
+account1 has 0
+account1 has 0
+account1 has 100
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2000
+account2 has 1000
+account1 has 1900
+account2 has 800
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 1000
+account2 has 1000
+account3 has 1000
+account2 has 900
+account2 has 800
+account3 has 900
+account1 has 1100
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2000
+account1 has 1000
+account1 has 0
+account1 has 100
+account1 has 220
+account1 has 320
+account1 has 440
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc6 has been created at 6
+acc7 has been created at 7
+acc8 has been created at 8
+acc9 has been created at 9
+acc10 has been created at 10
+acc1 has 5620
+acc2 has 9057
+acc3 has 5323
+acc4 has 9128
+acc5 has 5363
+acc6 has 8896
+acc7 has 8871
+acc8 has 8206
+acc9 has 9165
+acc1 has 5142
+acc2 has 8614
+acc3 has 5175
+acc4 has 8694
+acc5 has 5195
+acc6 has 8436
+acc7 has 8612
+acc8 has 7849
+acc9 has 8784
+acc1 has 6136
+acc2 has 8798
+acc3 has 5644
+acc4 has 9156
+acc5 has 5900
+acc6 has 9366
+acc7 has 9414
+acc8 has 8387
+acc9 has 9287
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc6 has been created at 6
+acc7 has been created at 7
+acc8 has been created at 8
+acc9 has been created at 9
+acc10 has been created at 10
+acc1 has 6460
+acc2 has 6555
+acc3 has 6648
+acc4 has 7372
+acc5 has 5964
+acc6 has 6559
+acc7 has 8653
+acc8 has 8284
+acc9 has 8832
+acc1 has 6326
+acc2 has 6062
+acc3 has 6155
+acc4 has 7116
+acc5 has 5539
+acc6 has 6186
+acc7 has 8495
+acc8 has 8073
+acc9 has 8363
+acc1 has 6641
+acc2 has 6961
+acc3 has 6377
+acc4 has 7640
+acc5 has 5843
+acc6 has 6640
+acc7 has 9373
+acc8 has 8562
+acc9 has 8470
+acc1 has 6355
+acc2 has 6596
+acc3 has 6152
+acc4 has 7157
+acc5 has 5649
+acc6 has 6254
+acc7 has 8981
+acc8 has 8272
+acc9 has 8221
+account1 has been created at 1
+account2 has been created at 2
+account1 has 1000
+account2 has 1000
+account1 has 2250
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account4 has been created at 4
+account1 has 1000
+account2 has 1000
+account3 has 1000
+account4 has 1000
+account1 has 500
+account2 has 1500
+account1 has 400
+account4 has 1100
+account3 has 800
+account2 has 1700
+account3 has 600
+account4 has 600
+account1 has been created at 1
+account2 has been created at 2
+account1 has 1000
+account2 has 1000
+account1 has 800
+account2 has 500
+account1 has 1414
+Running test: test_level_4_case_04_basic_get_balance
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 1000
+account2 has 2000
+account3 has 3000
+account1 has 900
+account2 has 2100
+account2 has 1900
+account3 has 2700
+account2 has 2200
+account1 has 500
+Querying balance for account1 at time 7
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account2'), (4, 'Deposit', 1000, 1000, 'account1'), (5, 'Deposit', 2000, 2000, 'account2'), (7, 'Transfer In', 100, 2100, 'account2'), (7, 'Transfer Out', 100, 900, 'account1'), (8, 'Pay', 200, 1900, 'account2'), (9, 'Transfer In', 300, 2200, 'account2'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (4, 'Deposit', 1000, 1000, 'account1'), (7, 'Transfer Out', 100, 900, 'account1'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Closest index: 2, Closest timestamp: 7
+Querying balance for account1 at time 9
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account2'), (4, 'Deposit', 1000, 1000, 'account1'), (5, 'Deposit', 2000, 2000, 'account2'), (7, 'Transfer In', 100, 2100, 'account2'), (7, 'Transfer Out', 100, 900, 'account1'), (8, 'Pay', 200, 1900, 'account2'), (9, 'Transfer In', 300, 2200, 'account2'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (4, 'Deposit', 1000, 1000, 'account1'), (7, 'Transfer Out', 100, 900, 'account1'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Closest index: 2, Closest timestamp: 7
+Querying balance for account1 at time 13
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account2'), (4, 'Deposit', 1000, 1000, 'account1'), (5, 'Deposit', 2000, 2000, 'account2'), (7, 'Transfer In', 100, 2100, 'account2'), (7, 'Transfer Out', 100, 900, 'account1'), (8, 'Pay', 200, 1900, 'account2'), (9, 'Transfer In', 300, 2200, 'account2'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (4, 'Deposit', 1000, 1000, 'account1'), (7, 'Transfer Out', 100, 900, 'account1'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Closest index: 4, Closest timestamp: 13
+Querying balance for account3 at time 15
+Full transaction list: [(3, 'Account Creation', 0, 0, 'account3'), (6, 'Deposit', 3000, 3000, 'account3'), (9, 'Transfer Out', 300, 2700, 'account3')]
+Searched transaction list: [(3, 'Account Creation', 0, 0, 'account3'), (6, 'Deposit', 3000, 3000, 'account3'), (9, 'Transfer Out', 300, 2700, 'account3')]
+Closest index: 2, Closest timestamp: 9
+account1 has been created at 1
+account1 has 1000
+account1 has 700
+account1 has 500
+account1 has 400
+Querying balance for account1 at time 5
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1')]
+Closest index: 4, Closest timestamp: 5
+Querying balance for account1 at time 86400002
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Closest index: 4, Closest timestamp: 5
+Querying balance for account1 at time 86400003
+.F.FFull transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Closest index: 5, Closest timestamp: 86400003
+Querying balance for account1 at time 86400004
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Closest index: 6, Closest timestamp: 86400004
+Querying balance for account1 at time 86400005
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Closest index: 7, Closest timestamp: 86400005
+Querying balance for account1 at time 86400010
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 1000, 1000, 'account1'), (3, 'Pay', 300, 700, 'account1'), (4, 'Pay', 200, 500, 'account1'), (5, 'Pay', 100, 400, 'account1'), (86400003, 'Cashback', 6, 406, 'account1'), (86400004, 'Cashback', 4, 410, 'account1'), (86400005, 'Cashback', 2, 412, 'account1')]
+Closest index: 7, Closest timestamp: 86400005
+Running test: test_level_4_case_06_get_balance_edge_cases
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 1000
+account2 has 2000
+account3 has 3000
+account1 has 900
+account2 has 1800
+account3 has 2700
+account1 has 500
+Querying balance for account1 at time 13
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account2'), (4, 'Deposit', 1000, 1000, 'account1'), (5, 'Deposit', 2000, 2000, 'account2'), (7, 'Pay', 100, 900, 'account1'), (8, 'Pay', 200, 1800, 'account2'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 1800, 2300, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (4, 'Deposit', 1000, 1000, 'account1'), (7, 'Pay', 100, 900, 'account1'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 1800, 2300, 'account1')]
+Closest index: 4, Closest timestamp: 13
+account1 has been created at 1
+account2 has been created at 2
+account1 has 500
+account2 has 250
+Running test: test_level_4_case_08_all_operations_1
+account1 has been created at 1
+account4 has been created at 2
+account3 has been created at 3
+account2 has been created at 4
+account1 has 1000
+account1 has 500
+account2 has 500
+account1 has 400
+account4 has 100
+account2 has 1500
+account3 has 1000
+account3 has 800
+account2 has 1700
+account3 has 600
+account4 has 1100
+account4 has 600
+Querying balance for account1 at time 17
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (5, 'Deposit', 1000, 1000, 'account1'), (6, 'Transfer Out', 500, 500, 'account1'), (7, 'Transfer Out', 100, 400, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (5, 'Deposit', 1000, 1000, 'account1'), (6, 'Transfer Out', 500, 500, 'account1'), (7, 'Transfer Out', 100, 400, 'account1')]
+Closest index: 3, Closest timestamp: 7
+Querying balance for account2 at time 20
+Full transaction list: [(3, 'Account Creation', 0, 0, 'account3'), (4, 'Account Creation', 0, 0, 'account2'), (6, 'Transfer In', 500, 500, 'account2'), (8, 'Deposit', 1000, 1500, 'account2'), (10, 'Deposit', 1000, 1000, 'account3'), (11, 'Transfer In', 200, 1700, 'account2'), (11, 'Transfer Out', 200, 800, 'account3'), (12, 'Pay', 200, 600, 'account3'), (19, 'Merged Account with account3', 600, 2300, 'account2')]
+Searched transaction list: [(4, 'Account Creation', 0, 0, 'account2'), (6, 'Transfer In', 500, 500, 'account2'), (8, 'Deposit', 1000, 1500, 'account2'), (11, 'Transfer In', 200, 1700, 'account2'), (19, 'Merged Account with account3', 600, 2300, 'account2')]
+Closest index: 4, Closest timestamp: 19
+Running test: test_level_4_case_09_all_operations_2
+account1 has been created at 1
+account4 has been created at 2
+account3 has been created at 3
+account2 has been created at 4
+account1 has 1000
+account1 has 500
+account2 has 500
+account1 has 400
+account4 has 100
+account2 has 1500
+account3 has 1000
+account3 has 800
+account2 has 1700
+account3 has 600
+account4 has 1100
+account4 has 600
+account1 has 3400
+Querying balance for account1 at time 25
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account4'), (3, 'Account Creation', 0, 0, 'account3'), (4, 'Account Creation', 0, 0, 'account2'), (5, 'Deposit', 1000, 1000, 'account1'), (6, 'Transfer In', 500, 500, 'account2'), (6, 'Transfer Out', 500, 500, 'account1'), (7, 'Transfer In', 100, 100, 'account4'), (7, 'Transfer Out', 100, 400, 'account1'), (8, 'Deposit', 1000, 1500, 'account2'), (10, 'Deposit', 1000, 1000, 'account3'), (11, 'Transfer In', 200, 1700, 'account2'), (11, 'Transfer Out', 200, 800, 'account3'), (12, 'Pay', 200, 600, 'account3'), (13, 'Deposit', 1000, 1100, 'account4'), (14, 'Pay', 500, 600, 'account4'), (17, 'Merged Account with account4', 600, 1200, 'account3'), (18, 'Merged Account with account3', 1200, 2900, 'account2'), (19, 'Merged Account with account2', 2900, 3300, 'account1'), (20, 'Deposit', 100, 3400, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (5, 'Deposit', 1000, 1000, 'account1'), (6, 'Transfer Out', 500, 500, 'account1'), (7, 'Transfer Out', 100, 400, 'account1'), (19, 'Merged Account with account2', 2900, 3300, 'account1'), (20, 'Deposit', 100, 3400, 'account1')]
+Closest index: 5, Closest timestamp: 20
+Querying balance for account1 at time 15
+FFull transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account4'), (3, 'Account Creation', 0, 0, 'account3'), (4, 'Account Creation', 0, 0, 'account2'), (5, 'Deposit', 1000, 1000, 'account1'), (6, 'Transfer In', 500, 500, 'account2'), (6, 'Transfer Out', 500, 500, 'account1'), (7, 'Transfer In', 100, 100, 'account4'), (7, 'Transfer Out', 100, 400, 'account1'), (8, 'Deposit', 1000, 1500, 'account2'), (10, 'Deposit', 1000, 1000, 'account3'), (11, 'Transfer In', 200, 1700, 'account2'), (11, 'Transfer Out', 200, 800, 'account3'), (12, 'Pay', 200, 600, 'account3'), (13, 'Deposit', 1000, 1100, 'account4'), (14, 'Pay', 500, 600, 'account4'), (17, 'Merged Account with account4', 600, 1200, 'account3'), (18, 'Merged Account with account3', 1200, 2900, 'account2'), (19, 'Merged Account with account2', 2900, 3300, 'account1'), (20, 'Deposit', 100, 3400, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (5, 'Deposit', 1000, 1000, 'account1'), (6, 'Transfer Out', 500, 500, 'account1'), (7, 'Transfer Out', 100, 400, 'account1'), (19, 'Merged Account with account2', 2900, 3300, 'account1'), (20, 'Deposit', 100, 3400, 'account1')]
+Closest index: 3, Closest timestamp: 7
+Running test: test_level_4_case_10_all_operations_3
+acc1 has been created at 1
+acc2 has been created at 2
+acc3 has been created at 3
+acc4 has been created at 4
+acc5 has been created at 5
+acc6 has been created at 6
+acc7 has been created at 7
+acc8 has been created at 8
+acc9 has been created at 9
+acc10 has been created at 10
+acc1 has 7746
+acc2 has 8094
+acc3 has 6204
+acc4 has 7335
+acc5 has 9193
+acc6 has 6054
+acc7 has 9180
+acc8 has 5543
+acc9 has 6462
+acc1 has 7517
+acc2 has 7861
+acc3 has 6095
+acc4 has 7206
+acc5 has 9022
+acc6 has 5848
+acc7 has 8936
+acc8 has 5421
+acc9 has 6226
+acc7 has 8792
+acc1 has 7661
+acc3 has 5868
+acc2 has 8088
+acc3 has 5698
+acc4 has 7376
+acc4 has 7252
+acc2 has 8212
+acc7 has 8632
+acc6 has 6008
+acc9 has 5996
+acc3 has 5928
+acc1 has 7539
+acc8 has 5543
+Querying balance for acc1 at time 2
+Full transaction list: [(1, 'Account Creation', 0, 0, 'acc1'), (2, 'Account Creation', 0, 0, 'acc2'), (3, 'Account Creation', 0, 0, 'acc3'), (4, 'Account Creation', 0, 0, 'acc4'), (5, 'Account Creation', 0, 0, 'acc5'), (6, 'Account Creation', 0, 0, 'acc6'), (7, 'Account Creation', 0, 0, 'acc7'), (8, 'Account Creation', 0, 0, 'acc8'), (9, 'Account Creation', 0, 0, 'acc9'), (10, 'Account Creation', 0, 0, 'acc10'), (12, 'Deposit', 7746, 7746, 'acc1'), (13, 'Deposit', 8094, 8094, 'acc2'), (14, 'Deposit', 6204, 6204, 'acc3'), (15, 'Deposit', 7335, 7335, 'acc4'), (16, 'Deposit', 9193, 9193, 'acc5'), (17, 'Deposit', 6054, 6054, 'acc6'), (18, 'Deposit', 9180, 9180, 'acc7'), (19, 'Deposit', 5543, 5543, 'acc8'), (20, 'Deposit', 6462, 6462, 'acc9'), (21, 'Pay', 229, 7517, 'acc1'), (22, 'Pay', 233, 7861, 'acc2'), (23, 'Pay', 109, 6095, 'acc3'), (24, 'Pay', 129, 7206, 'acc4'), (25, 'Pay', 171, 9022, 'acc5'), (26, 'Pay', 206, 5848, 'acc6'), (27, 'Pay', 244, 8936, 'acc7'), (28, 'Pay', 122, 5421, 'acc8'), (29, 'Pay', 236, 6226, 'acc9'), (32, 'Transfer In', 144, 7661, 'acc1'), (32, 'Transfer Out', 144, 8792, 'acc7'), (33, 'Transfer In', 227, 8088, 'acc2'), (33, 'Transfer Out', 227, 5868, 'acc3'), (35, 'Transfer In', 170, 7376, 'acc4'), (35, 'Transfer Out', 170, 5698, 'acc3'), (36, 'Transfer In', 124, 8212, 'acc2'), (36, 'Transfer Out', 124, 7252, 'acc4'), (38, 'Transfer In', 160, 6008, 'acc6'), (38, 'Transfer Out', 160, 8632, 'acc7'), (39, 'Transfer In', 230, 5928, 'acc3'), (39, 'Transfer Out', 230, 5996, 'acc9'), (40, 'Transfer In', 122, 5543, 'acc8'), (40, 'Transfer Out', 122, 7539, 'acc1'), (42, 'Merged Account with acc2', 8212, 15751, 'acc1'), (43, 'Merged Account with acc3', 5928, 21679, 'acc1'), (44, 'Merged Account with acc4', 7252, 28931, 'acc1'), (45, 'Merged Account with acc5', 9022, 37953, 'acc1'), (46, 'Merged Account with acc6', 6008, 43961, 'acc1'), (47, 'Merged Account with acc7', 8632, 52593, 'acc1'), (48, 'Merged Account with acc8', 5543, 58136, 'acc1'), (49, 'Merged Account with acc9', 5996, 64132, 'acc1'), (50, 'Merged Account with acc10', 0, 64132, 'acc1'), (86400021, 'Cashback', 4, 64136, 'acc1'), (86400022, 'Cashback', 4, 64140, 'acc1'), (86400023, 'Cashback', 2, 64142, 'acc1'), (86400024, 'Cashback', 2, 64144, 'acc1'), (86400025, 'Cashback', 3, 64147, 'acc1'), (86400026, 'Cashback', 4, 64151, 'acc1'), (86400027, 'Cashback', 4, 64155, 'acc1'), (86400028, 'Cashback', 2, 64157, 'acc1'), (86400029, 'Cashback', 4, 64161, 'acc1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'acc1'), (12, 'Deposit', 7746, 7746, 'acc1'), (21, 'Pay', 229, 7517, 'acc1'), (32, 'Transfer In', 144, 7661, 'acc1'), (40, 'Transfer Out', 122, 7539, 'acc1'), (42, 'Merged Account with acc2', 8212, 15751, 'acc1'), (43, 'Merged Account with acc3', 5928, 21679, 'acc1'), (44, 'Merged Account with acc4', 7252, 28931, 'acc1'), (45, 'Merged Account with acc5', 9022, 37953, 'acc1'), (46, 'Merged Account with acc6', 6008, 43961, 'acc1'), (47, 'Merged Account with acc7', 8632, 52593, 'acc1'), (48, 'Merged Account with acc8', 5543, 58136, 'acc1'), (49, 'Merged Account with acc9', 5996, 64132, 'acc1'), (50, 'Merged Account with acc10', 0, 64132, 'acc1'), (86400021, 'Cashback', 4, 64136, 'acc1'), (86400022, 'Cashback', 4, 64140, 'acc1'), (86400023, 'Cashback', 2, 64142, 'acc1'), (86400024, 'Cashback', 2, 64144, 'acc1'), (86400025, 'Cashback', 3, 64147, 'acc1'), (86400026, 'Cashback', 4, 64151, 'acc1'), (86400027, 'Cashback', 4, 64155, 'acc1'), (86400028, 'Cashback', 2, 64157, 'acc1'), (86400029, 'Cashback', 4, 64161, 'acc1')]
+Closest index: 0, Closest timestamp: 1
+Querying balance for acc1 at time 19
+Full transaction list: [(1, 'Account Creation', 0, 0, 'acc1'), (2, 'Account Creation', 0, 0, 'acc2'), (3, 'Account Creation', 0, 0, 'acc3'), (4, 'Account Creation', 0, 0, 'acc4'), (5, 'Account Creation', 0, 0, 'acc5'), (6, 'Account Creation', 0, 0, 'acc6'), (7, 'Account Creation', 0, 0, 'acc7'), (8, 'Account Creation', 0, 0, 'acc8'), (9, 'Account Creation', 0, 0, 'acc9'), (10, 'Account Creation', 0, 0, 'acc10'), (12, 'Deposit', 7746, 7746, 'acc1'), (13, 'Deposit', 8094, 8094, 'acc2'), (14, 'Deposit', 6204, 6204, 'acc3'), (15, 'Deposit', 7335, 7335, 'acc4'), (16, 'Deposit', 9193, 9193, 'acc5'), (17, 'Deposit', 6054, 6054, 'acc6'), (18, 'Deposit', 9180, 9180, 'acc7'), (19, 'Deposit', 5543, 5543, 'acc8'), (20, 'Deposit', 6462, 6462, 'acc9'), (21, 'Pay', 229, 7517, 'acc1'), (22, 'Pay', 233, 7861, 'acc2'), (23, 'Pay', 109, 6095, 'acc3'), (24, 'Pay', 129, 7206, 'acc4'), (25, 'Pay', 171, 9022, 'acc5'), (26, 'Pay', 206, 5848, 'acc6'), (27, 'Pay', 244, 8936, 'acc7'), (28, 'Pay', 122, 5421, 'acc8'), (29, 'Pay', 236, 6226, 'acc9'), (32, 'Transfer In', 144, 7661, 'acc1'), (32, 'Transfer Out', 144, 8792, 'acc7'), (33, 'Transfer In', 227, 8088, 'acc2'), (33, 'Transfer Out', 227, 5868, 'acc3'), (35, 'Transfer In', 170, 7376, 'acc4'), (35, 'Transfer Out', 170, 5698, 'acc3'), (36, 'Transfer In', 124, 8212, 'acc2'), (36, 'Transfer Out', 124, 7252, 'acc4'), (38, 'Transfer In', 160, 6008, 'acc6'), (38, 'Transfer Out', 160, 8632, 'acc7'), (39, 'Transfer In', 230, 5928, 'acc3'), (39, 'Transfer Out', 230, 5996, 'acc9'), (40, 'Transfer In', 122, 5543, 'acc8'), (40, 'Transfer Out', 122, 7539, 'acc1'), (42, 'Merged Account with acc2', 8212, 15751, 'acc1'), (43, 'Merged Account with acc3', 5928, 21679, 'acc1'), (44, 'Merged Account with acc4', 7252, 28931, 'acc1'), (45, 'Merged Account with acc5', 9022, 37953, 'acc1'), (46, 'Merged Account with acc6', 6008, 43961, 'acc1'), (47, 'Merged Account with acc7', 8632, 52593, 'acc1'), (48, 'Merged Account with acc8', 5543, 58136, 'acc1'), (49, 'Merged Account with acc9', 5996, 64132, 'acc1'), (50, 'Merged Account with acc10', 0, 64132, 'acc1'), (86400021, 'Cashback', 4, 64136, 'acc1'), (86400022, 'Cashback', 4, 64140, 'acc1'), (86400023, 'Cashback', 2, 64142, 'acc1'), (86400024, 'Cashback', 2, 64144, 'acc1'), (86400025, 'Cashback', 3, 64147, 'acc1'), (86400026, 'Cashback', 4, 64151, 'acc1'), (86400027, 'Cashback', 4, 64155, 'acc1'), (86400028, 'Cashback', 2, 64157, 'acc1'), (86400029, 'Cashback', 4, 64161, 'acc1')]
+F..
+======================================================================
+FAIL: test_level_4_case_06_get_balance_edge_cases (level_4_tests.Level4Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/shreepatel527/chem_274b/banking-system/tests/level_4_tests.py", line 114, in test_level_4_case_06_get_balance_edge_cases
+    self.assertIsNone(self.system.get_balance(16, 'account2', 13))
+Exception: 2300 is not None
+
+======================================================================
+FAIL: test_level_4_case_08_all_operations_1 (level_4_tests.Level4Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/shreepatel527/chem_274b/banking-system/tests/level_4_tests.py", line 155, in test_level_4_case_08_all_operations_1
+    self.assertIsNone(self.system.get_balance(24, 'account3', 20))
+Exception: 2300 is not None
+
+======================================================================
+FAIL: test_level_4_case_09_all_operations_2 (level_4_tests.Level4Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/shreepatel527/chem_274b/banking-system/tests/level_4_tests.py", line 196, in test_level_4_case_09_all_operations_2
+    self.assertEqual(self.system.get_balance(26, 'account2', 15), 1700)
+Exception: 400 != 1700
+
+======================================================================
+FAIL: test_level_4_case_10_all_operations_3 (level_4_tests.Level4Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/shreepatel527/chem_274b/banking-system/tests/level_4_tests.py", line 269, in test_level_4_case_10_all_operations_3
+    self.assertEqual(self.system.get_balance(86400043, 'acc2', 19), 8094)
+Exception: 7746 != 8094
+
+----------------------------------------------------------------------
+Ran 42 tests in 0.004s
+
+FAILED (failures=4)
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'acc1'), (12, 'Deposit', 7746, 7746, 'acc1'), (21, 'Pay', 229, 7517, 'acc1'), (32, 'Transfer In', 144, 7661, 'acc1'), (40, 'Transfer Out', 122, 7539, 'acc1'), (42, 'Merged Account with acc2', 8212, 15751, 'acc1'), (43, 'Merged Account with acc3', 5928, 21679, 'acc1'), (44, 'Merged Account with acc4', 7252, 28931, 'acc1'), (45, 'Merged Account with acc5', 9022, 37953, 'acc1'), (46, 'Merged Account with acc6', 6008, 43961, 'acc1'), (47, 'Merged Account with acc7', 8632, 52593, 'acc1'), (48, 'Merged Account with acc8', 5543, 58136, 'acc1'), (49, 'Merged Account with acc9', 5996, 64132, 'acc1'), (50, 'Merged Account with acc10', 0, 64132, 'acc1'), (86400021, 'Cashback', 4, 64136, 'acc1'), (86400022, 'Cashback', 4, 64140, 'acc1'), (86400023, 'Cashback', 2, 64142, 'acc1'), (86400024, 'Cashback', 2, 64144, 'acc1'), (86400025, 'Cashback', 3, 64147, 'acc1'), (86400026, 'Cashback', 4, 64151, 'acc1'), (86400027, 'Cashback', 4, 64155, 'acc1'), (86400028, 'Cashback', 2, 64157, 'acc1'), (86400029, 'Cashback', 4, 64161, 'acc1')]
+Closest index: 1, Closest timestamp: 12
+account1 has been created at 1
+account2 has been created at 2
+account3 has been created at 3
+account1 has 1000
+account2 has 2000
+account3 has 3000
+account1 has 900
+account2 has 2100
+account2 has 1900
+account3 has 2700
+account2 has 2200
+account1 has 500
+Querying balance for account1 at time 7
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account2'), (4, 'Deposit', 1000, 1000, 'account1'), (5, 'Deposit', 2000, 2000, 'account2'), (7, 'Transfer In', 100, 2100, 'account2'), (7, 'Transfer Out', 100, 900, 'account1'), (8, 'Pay', 200, 1900, 'account2'), (9, 'Transfer In', 300, 2200, 'account2'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (4, 'Deposit', 1000, 1000, 'account1'), (7, 'Transfer Out', 100, 900, 'account1'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Closest index: 2, Closest timestamp: 7
+Querying balance for account1 at time 9
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account2'), (4, 'Deposit', 1000, 1000, 'account1'), (5, 'Deposit', 2000, 2000, 'account2'), (7, 'Transfer In', 100, 2100, 'account2'), (7, 'Transfer Out', 100, 900, 'account1'), (8, 'Pay', 200, 1900, 'account2'), (9, 'Transfer In', 300, 2200, 'account2'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (4, 'Deposit', 1000, 1000, 'account1'), (7, 'Transfer Out', 100, 900, 'account1'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Closest index: 2, Closest timestamp: 7
+Querying balance for account1 at time 13
+Full transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Account Creation', 0, 0, 'account2'), (4, 'Deposit', 1000, 1000, 'account1'), (5, 'Deposit', 2000, 2000, 'account2'), (7, 'Transfer In', 100, 2100, 'account2'), (7, 'Transfer Out', 100, 900, 'account1'), (8, 'Pay', 200, 1900, 'account2'), (9, 'Transfer In', 300, 2200, 'account2'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Searched transaction list: [(1, 'Account Creation', 0, 0, 'account1'), (4, 'Deposit', 1000, 1000, 'account1'), (7, 'Transfer Out', 100, 900, 'account1'), (10, 'Pay', 400, 500, 'account1'), (13, 'Merged Account with account2', 2200, 2700, 'account1')]
+Closest index: 4, Closest timestamp: 13
+Querying balance for account3 at time 15
+Full transaction list: [(3, 'Account Creation', 0, 0, 'account3'), (6, 'Deposit', 3000, 3000, 'account3'), (9, 'Transfer Out', 300, 2700, 'account3')]
+Searched transaction list: [(3, 'Account Creation', 0, 0, 'account3'), (6, 'Deposit', 3000, 3000, 'account3'), (9, 'Transfer Out', 300, 2700, 'account3')]
+Closest index: 2, Closest timestamp: 9
+account1 has been created at 1
+account2 has been created at 2
+account1 has 2000
+account2 has 1000
+account1 has 1500
+account2 has 1500
