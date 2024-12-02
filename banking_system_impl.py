@@ -313,6 +313,27 @@ class BankingSystemImpl(BankingSystem):
         self.accounts[account_id_1].append((timestamp, transaction_type, acc_2_bal, new_bal, account_id_1))
 
         return True
+    
+    def balance_query(self, timestamp: int, account_id: str, time_at: int, target_account) -> int | None:
+        "Allows us to query based on merged account id's that may be deprecated"
+        account_history = self.accounts[account_id]
+        if not account_history:
+            return None
+        
+        original_account_history = [x for x in account_history if x[4] == target_account]
+    
+        account_timestamps = [x[0] for x in original_account_history]
+        closest_index = bisect.bisect_right(account_timestamps, time_at) - 1
+
+        if closest_index == -1:
+            return None
+
+        print(f"Querying balance for {account_id} at time {time_at}")
+        print(f"Full transaction list: {self.accounts[account_id]}")
+        print(f"Searched transaction list: {original_account_history}")
+        print(f"Closest index: {closest_index}, Closest timestamp: {account_timestamps[closest_index]}")
+
+        return original_account_history[closest_index][3]
 
     def get_balance(self, timestamp: int, account_id: str, time_at: int) -> int | None:
         """
@@ -333,13 +354,18 @@ class BankingSystemImpl(BankingSystem):
             if not account_id in self.merged_accounts:
                 return None
             else:
-                account_id = self.merged_accounts[account_id]
-                
-        # to-do : find where the merge happens in the history
+                new_account_id = self.merged_accounts[account_id]
+                new_history = self.accounts[new_account_id]
+                merge = [x for x in new_history if x[1] == f"Merged Account with {account_id}"]
+                merge_time = merge[0][0]
+                if merge_time > time_at:
+                    merged_account = account_id
+                    account_id = new_account_id
+                    query = self.balance_query(timestamp, account_id, time_at, merged_account)
+                else: 
+                    return None
 
-        # if i am querying a timestamp after merge, return None bc account has been deleted
-
-        # else return the old history
+        # to-do : find a way to retain old id so i can query by it 
         
         self.accounts[account_id].sort()
         if self.accounts[account_id][0][0] > time_at:
@@ -349,17 +375,7 @@ class BankingSystemImpl(BankingSystem):
         if not account_history:
             return None
         
-        original_account_history = [x for x in account_history if x[4] == account_id]
+        query = self.balance_query(timestamp, account_id, time_at, target_account=account_id)
+
+        return query
     
-        account_timestamps = [x[0] for x in original_account_history]
-        closest_index = bisect.bisect_right(account_timestamps, time_at) - 1
-
-        if closest_index == -1:
-            return None
-
-        print(f"Querying balance for {account_id} at time {time_at}")
-        print(f"Full transaction list: {self.accounts[account_id]}")
-        print(f"Searched transaction list: {original_account_history}")
-        print(f"Closest index: {closest_index}, Closest timestamp: {account_timestamps[closest_index]}")
-
-        return original_account_history[closest_index][3]
