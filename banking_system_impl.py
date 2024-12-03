@@ -316,6 +316,8 @@ class BankingSystemImpl(BankingSystem):
     
     def balance_query(self, timestamp: int, account_id: str, time_at: int, target_account) -> int | None:
         "Allows us to query based on merged account id's that may be deprecated"
+
+        # extract the account history 
         account_history = self.accounts[account_id]
         if not account_history:
             return None
@@ -328,9 +330,10 @@ class BankingSystemImpl(BankingSystem):
         if closest_index == -1:
             return None
 
-        print(f"Querying balance for {account_id} at time {time_at}")
-        print(f"Full transaction list: {self.accounts[account_id]}")
-        print(f"Searched transaction list: {original_account_history}")
+        print(f"Debug: Starting balance_query for account {account_id} at time {time_at} targeting {target_account}")
+        print(f"Full account history: {account_history}")
+        print(f"Filtered account history for target account {target_account}: {original_account_history}")
+        print(f"Available timestamps: {account_timestamps}")
         print(f"Closest index: {closest_index}, Closest timestamp: {account_timestamps[closest_index]}")
 
         return original_account_history[closest_index][3]
@@ -348,34 +351,75 @@ class BankingSystemImpl(BankingSystem):
           account should inherit its balance history.
         """
 
+        print(f"Debug: Calling get_balance for account {account_id} at time {time_at} (current timestamp: {timestamp})")
+
         self.process_cashback(timestamp)
 
+        target_account_id = account_id
+
+        # if account ID does not exist, it must either be merged or non-existent
         if account_id not in self.accounts:
+
+            # if the account id is not merged, then it must be non-existent
             if not account_id in self.merged_accounts:
                 return None
+            
+            # if account id does exist in the merged dictionary, it has a new name now. we need to map the old_id to the new_id in the accounts dict, but query by the old_id
             else:
+
+                # find new account id from dictionary mapping
                 new_account_id = self.merged_accounts[account_id]
-                new_history = self.accounts[new_account_id]
-                merge = [x for x in new_history if x[1] == f"Merged Account with {account_id}"]
-                merge_time = merge[0][0]
-                if merge_time > time_at:
-                    merged_account = account_id
+
+                # find the history of the new ID
+                while new_account_id not in self.accounts:
                     account_id = new_account_id
-                    query = self.balance_query(timestamp, account_id, time_at, merged_account)
+                    new_account_id = self.merged_accounts[account_id]
+                    
+                new_history = self.accounts[new_account_id]
+
+                # find the entry where the merge happened
+                merge = [x for x in new_history if x[1] == f"Merged Account with {account_id}"]
+
+                # find the timestamp of the merge
+                merge_time = merge[0][0] if merge else None
+
+                print(f"Debug: New account ID for merged account {account_id} is {new_account_id}")
+                print(f"History for new account {new_account_id}: {new_history}")       
+
+                # if the merge happened after the time we are querying, we want to access the old id for the result
+                if merge_time > time_at:
+                    print(f"Merge happened at {merge_time}, which is after {time_at}. Querying old account {target_account_id}.")
+
+                    query = self.balance_query(timestamp, new_account_id, time_at, target_account=target_account_id)
+                    return query
+
+                # if the merge happened before the time we are querying, then we are looking at shared history, and the merged account ID does not have this history anymore. 
                 else: 
+                    print(f"Merge happened at {merge_time}, which is before {time_at}.")
                     return None
 
-        # to-do : find a way to retain old id so i can query by it 
-        
-        self.accounts[account_id].sort()
-        if self.accounts[account_id][0][0] > time_at:
-            return None
+        # if the account ID is found in self.accounts, then it is not an account that has been merged with others 
+        else: 
 
-        account_history = self.accounts[account_id]
-        if not account_history:
-            return None
-        
-        query = self.balance_query(timestamp, account_id, time_at, target_account=account_id)
+            # sort the entries by timestamp
+            self.accounts[account_id].sort()
 
-        return query
+            # if the first entry in the account ID is after the query time, this account didn't exist
+            if self.accounts[account_id][0][0] > time_at:
+                return None
+
+            # extract the account history
+            account_history = self.accounts[account_id]
+
+            # if there is no history
+            if not account_history:
+                return None
+            
+            print(f"Debug: Found account {account_id}. Full history: {self.accounts[account_id]}")
+            print(f"Querying account {account_id} at time {time_at} for balance.")
+            
+            # query
+            query = self.balance_query(timestamp, account_id, time_at, target_account=account_id)
+
+            return query
     
