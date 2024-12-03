@@ -2,7 +2,7 @@
 <img src="https://th.bing.com/th/id/R.059119405ce24f00b354ad6a47179329?rik=hcu9USxTrd7Plg&pid=ImgRaw&r=0" alt="Banking system clipart" width="200"/>
 
 ## Overview
-The following repository contains a comprehensive implementation of a banking system, built entirely of possible. The banking system is capable of many functionalities, such as account creation, performing transactions, account merging, and balance querying.
+The following repository contains a comprehensive implementation of a banking system, built entirely in Python. Key functionalities include account creation, performing transactions, account merging, and balance querying.
 
 ## Key Features
 - Account creation and merging
