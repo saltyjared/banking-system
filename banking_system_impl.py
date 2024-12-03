@@ -7,29 +7,43 @@ class BankingSystemImpl(BankingSystem):
     MILLISECONDS_IN_1_DAY = 86400000
 
     def __init__(self):
-        # Encapsulate registered accounts in a dictionary with account IDs as keys and transaction history as values
-        # Transactions are recorded as a 4-element tuple: (timestamp, transaction_type, transaction_amt, balance, account_id)
-        # i.e. {account1 : [(1, 'Account Creation', 0, 0, 'account1'), (2, 'Deposit', 200, 200, 'account1'), (3, 'Pay', 50, 150, 'account1')]}
+        """
+        Initializes banking system with empty dictionaries.
+        1. {account_id : [(timestamp, transaction_type, amount, balance, account_id)]} 
+        2. {payment_id : [account_id, timestamp, cashback, status]}
+        3. {merged_account : active_account}
+
+        Attributes
+        ----------
+        account: dict 
+            Stores account's transaction history with account ID as key.
+        payments: dict 
+            Stores payment transaction information with payment ID as key. 
+        merged_accounts: dict 
+            Stores active account ID with merged, deactivated account ID as key. 
+        """
         self.accounts = {}
-
-        # Encapsulate scheduled cashback payments in a dictionary with payment_id as a key and
-        # [account_id, cashback_amount, status] as values
-        # i.e. {payment1 : [account1, 86400001, 20, False]} 
         self.payments = {}
-
-        # Encapsulate merged accounts in a dictionary, with the merged account being the key and the new
-        # primary account being the value
-        # i.e. {acc2 : acc1} -> 'acc2' has been merged into 'acc1'
         self.merged_accounts = {}
 
 
     # Level 1 
     def create_account(self, timestamp: int, account_id: str) -> bool:
         """
-        Should create a new account with the given identifier if it
-        doesn't already exist.
-        Returns `True` if the account was successfully created or
-        `False` if an account with `account_id` already exists.
+        Create account if it does not already exist. 
+
+        Parameters
+        -----------
+        timestamp: int 
+            The timestamp at account creation. 
+        account_id: str
+            Unique identifier of new account.
+        
+        Returns
+        --------
+        bool 
+            'True' if account was created successfully. 
+            'False' if account already exists. 
         """
 
         # Edge case, account already exists in system
@@ -38,17 +52,28 @@ class BankingSystemImpl(BankingSystem):
         
         # Create new key in accounts and transactions dictionaries 
         self.accounts[account_id] = [(timestamp, "Account Creation", 0, 0, account_id)] 
-        print(f"{account_id} has been created at {timestamp}")
+        #print(f"{account_id} has been created at {timestamp}")
         return True
 
     def deposit(self, timestamp: int, account_id: str, amount: int) -> int | None:
         """
-        Should deposit the given `amount` of money to the specified
-        account `account_id`.
-        Returns the balance of the account after the operation has
-        been processed.
-        If the specified account doesn't exist, should return
-        `None`.
+        Deposits a given amount into specified account ID and returns the new balance. 
+
+        Parameters
+        ----------
+        timestamp: int 
+            Timestamp of deposit. 
+        account_id: str
+            Account to which deposit is made. 
+        amount: int 
+            Amount to deposit.
+
+        Returns 
+        -------
+        new_balance: int 
+            New balance of account after deposit. 
+        None
+            If account does not exist. 
         """
 
         # Process any due cashbacks prior to deposit
@@ -63,21 +88,30 @@ class BankingSystemImpl(BankingSystem):
         prev_balance = self.accounts[account_id][-1][3] # Access most recent tuple's balance
         new_balance = prev_balance + amount
         self.accounts[account_id].append((timestamp, transaction_type, amount, new_balance, account_id))  
-        print(f"{account_id} has {new_balance}")   
+        #print(f"{account_id} has {new_balance}")   
         return new_balance
           
     def transfer(self, timestamp: int, source_account_id: str, target_account_id: str, amount: int) -> int | None:
         """
-        Should transfer the given amount of money from account
-        `source_account_id` to account `target_account_id`. 
-        Returns the balance of `source_account_id` if the transfer
-        was successful or `None` otherwise.
-          * Returns `None` if `source_account_id` or
-          `target_account_id` doesn't exist.
-          * Returns `None` if `source_account_id` and 
-          `target_account_id` are the same.
-          * Returns `None` if account `source_account_id` has 
-          insufficient funds to perform the transfer.
+        Transfers specified amount from source account to target account. 
+
+        Parameters
+        ----------
+        timestamp: int 
+            Timestamp of transfer. 
+        source_account_id: str
+            Account from which transfer is made.
+        target_account_id: str
+            Account to which amount is transferred to. 
+        amount: int 
+            Amount to transfer.
+
+        Returns 
+        -------
+        new_balance: int 
+            New balance of source account after transfer. 
+        None
+            If transfer was invalid. 
         """
         
         # Process any due cashbacks prior to transfer
@@ -104,25 +138,28 @@ class BankingSystemImpl(BankingSystem):
         # Record transactions in each account's history
         self.accounts[source_account_id].append((timestamp, src_transaction_type, amount, new_src_balance, source_account_id))
         self.accounts[target_account_id].append((timestamp, tgt_transaction_type, amount, new_tgt_balance, target_account_id))
-        print(f"{source_account_id} has {new_src_balance}")   
-        print(f"{target_account_id} has {new_tgt_balance}")   
+        #print(f"{source_account_id} has {new_src_balance}")   
+        #print(f"{target_account_id} has {new_tgt_balance}")   
         return new_src_balance
 
 
     # Level 2
     def top_spenders(self, timestamp: int, n: int) -> list[str]:
         """
-        Return the id and outgoing transactions of the top `n` accounts with the highest outgoing transactions 
+        Returns top `n` accounts with the highest outgoing transactions. 
 
         Parameters
-        ---------
+        ----------
+        timestamp: int 
+            Timestamp at top_spenders evaluation.
         n: int 
-            number of accounts to output
+            Number of accounts to output.
 
         Returns
         ----------
         output: list[str]
-            list of n strings with the top id's and transaction sums
+            List of account IDs and total outgoing transactions. 
+            Format : ["account_id(amount)"].
         """
         
         # Initialize dictionary to hold account_id as keys and outgoing_total as values
@@ -148,31 +185,24 @@ class BankingSystemImpl(BankingSystem):
     # Level 3
     def pay(self, timestamp: int, account_id: str, amount: int) -> str | None:
         """
-        Should withdraw the given amount of money from the specified
-        account.
-        All withdraw transactions provide a 2% cashback - 2% of the
-        withdrawn amount (rounded down to the nearest integer) will
-        be refunded to the account 24 hours after the withdrawal.
-        If the withdrawal is successful (i.e., the account holds
-        sufficient funds to withdraw the given amount), returns a
-        string with a unique identifier for the payment transaction
-        in this format:
-        `"payment[ordinal number of withdraws from all accounts]"` -
-        e.g., `"payment1"`, `"payment2"`, etc.
-        Additional conditions:
-          * Returns `None` if `account_id` doesn't exist.
-          * Returns `None` if `account_id` has insufficient funds to
-          perform the payment.
-          * **top_spenders** should now also account for the total
-          amount of money withdrawn from accounts.
-          * The waiting period for cashback is 24 hours, equal to
-          `24 * 60 * 60 * 1000 = 86400000` milliseconds (the unit for
-          timestamps).
-          So, cashback will be processed at timestamp
-          `timestamp + 86400000`.
-          * When it's time to process cashback for a withdrawal, the
-          amount must be refunded to the account before any other
-          transactions are performed at the relevant timestamp.
+        Withdraws a given amount from a specified account. Provides a 2%
+        cashback for every transaction, which is paid back after 24 hours.
+
+        Parameters
+        ----------
+        timestamp: int 
+            Timestamp of payment.
+        account_id: str 
+            Account from which payment is withdrawn from.
+        amount: int
+            Amount withdrawn.
+
+        Returns
+        ----------
+        payment_id: str
+            Unique identifier for each payment.
+        None
+            If account does not exist or account balance is less than amount.
         """
 
         # Process any due cashback prior to payment
@@ -196,15 +226,25 @@ class BankingSystemImpl(BankingSystem):
         payment_id = 'payment' + str(len(self.payments) + 1)
         completed = False
         self.payments[payment_id] = [account_id, cashback_timestamp, cashback, completed]
-        print(f"{account_id} has {new_balance}")   
+        #print(f"{account_id} has {new_balance}")   
         return payment_id
 
     def process_cashback(self, timestamp: int) -> None:
         """
         Processes the cashback for a given timestamp.
         This function will be called first in every transaction
-        function (deposit, pay, transfer) in order to process any
-        standing cashbacks.
+        function (deposit, pay, transfer) and getter function 
+        (get_payment_status, get_balance) in order to process the
+        cashback payment prior to these operations.
+
+        Parameters
+        ----------
+        timestamp: int 
+            Timestamp of current operation.
+
+        Returns
+        ----------
+        None
         """
         
         # List only cashback operations that are due at the current timestamp
@@ -229,16 +269,26 @@ class BankingSystemImpl(BankingSystem):
 
     def get_payment_status(self, timestamp: int, account_id: str, payment: str) -> str | None:
         """
-        Should return the status of the payment transaction for the
-        given `payment`.
-        Specifically:
-          * Returns `None` if `account_id` doesn't exist.
-          * Returns `None` if the given `payment` doesn't exist for
-          the specified account.
-          * Returns `None` if the payment transaction was for an
-          account with a different identifier from `account_id`.
-          * Returns a string representing the payment status:
-          `"IN_PROGRESS"` or `"CASHBACK_RECEIVED"`.
+        Returns the status of a cashback return for a given payment.
+        
+        Parameters
+        ----------
+        timestamp: int 
+            Timestamp of checking status.
+        account_id: str 
+            Account from which payment was made.
+        payment: str
+            Unique ID for payment.
+
+        Returns
+        ----------
+        str
+            "CASHBACK_RECIEVED" if cashback was successfully processed and 
+            added to account balance
+            "IN_PROGRESS" if cashback has not been processed yet
+        None
+            If account or payment does not exist or if input account ID does not 
+            match the account ID of the payment.
         """
 
         # Process any due cashback prior to getting payment status
@@ -264,25 +314,25 @@ class BankingSystemImpl(BankingSystem):
     # Level 4 
     def merge_accounts(self, timestamp: int, account_id_1: str, account_id_2: str):
         """
-        Should merge `account_id_2` into the `account_id_1`.
-        Returns `True` if accounts were successfully merged, or
-        `False` otherwise. 
-        Specifically:
-            1. Returns `False` if `account_id_1` is equal to `account_id_2`. 
-            2. Returns `False` if `account_id_1` or `account_id_2` doesn't exist. 
-            3. All pending cashback refunds for `account_id_2` should 
-               still be processed, but refunded to `account_id_1` instead. 
-            4. After the merge, it must be possible to check the status
-               of payment transactions for `account_id_2` with payment
-               identifiers by replacing `account_id_2` with `account_id_1`.
-            5. The balance of `account_id_2` should be added to the
-               balance for `account_id_1`.
-            6. `top_spenders` operations should recognize merged accounts
-               the total outgoing transactions for merged accounts should
-               be the sum of all money transferred and/or withdrawn in both
-               accounts.
-            7. `account_id_2` should be removed from the system after the
-               merge.
+        Merges `account_id_2` into `account_id_1`, combining their transaction
+        histories and deleting `account_id_2` from the system.
+        
+        Parameters
+        ----------
+        timestamp: int 
+            Timestamp of merge.
+        account_id_1: str 
+            Account being merged into, retaining the combined transaction
+            history of both accounts.
+        account_id_2: str
+            Account being merged and deleted from the system.
+
+        Returns
+        ----------
+        bool
+            "True" if merge was completed successfully.
+            "False" if both account IDs are the same or if either does not 
+            exist in system.
         """
         # Edge cases: account IDs are the same or either does not exist in system
         if account_id_1 == account_id_2 or account_id_1 not in self.accounts or account_id_2 not in self.accounts:
@@ -315,7 +365,30 @@ class BankingSystemImpl(BankingSystem):
         return True
     
     def balance_query(self, timestamp: int, account_id: str, time_at: int, target_account) -> int | None:
-        "Allows us to query based on merged account id's that may be deprecated"
+        """
+        Make a balance query based on merged account IDs that may be 
+        deprecated. Performs a binary search to find the closest, passed
+        timestamp to `time_at` to query balance from.
+
+        Parameters
+        ----------
+        timestamp: int 
+            Timestamp of query.
+        account_id: str 
+            Account from which balance is queried from.
+        time_at: int
+            Time of requested query.
+        target_account: str
+            Original account from which a transaction was made from. Can
+            be from a deprecated account.
+
+        Returns
+        ----------
+        int
+            Balance of account at `time_at`.
+        None
+            If account does not exist.
+        """
 
         # extract the account history 
         account_history = self.accounts[account_id]
@@ -330,28 +403,42 @@ class BankingSystemImpl(BankingSystem):
         if closest_index == -1:
             return None
 
-        print(f"Debug: Starting balance_query for account {account_id} at time {time_at} targeting {target_account}")
-        print(f"Full account history: {account_history}")
-        print(f"Filtered account history for target account {target_account}: {original_account_history}")
-        print(f"Available timestamps: {account_timestamps}")
-        print(f"Closest index: {closest_index}, Closest timestamp: {account_timestamps[closest_index]}")
+        #print(f"Debug: Starting balance_query for account {account_id} at time {time_at} targeting {target_account}")
+        #print(f"Full account history: {account_history}")
+        #print(f"Filtered account history for target account {target_account}: {original_account_history}")
+        #print(f"Available timestamps: {account_timestamps}")
+        #print(f"Closest index: {closest_index}, Closest timestamp: {account_timestamps[closest_index]}")
 
         return original_account_history[closest_index][3]
 
     def get_balance(self, timestamp: int, account_id: str, time_at: int) -> int | None:
         """
-        Should return the total amount of money in the account
-        `account_id` at the given timestamp `time_at`.
-        If the specified account did not exist at a given time
-        `time_at`, returns `None`.
-          * If queries have been processed at timestamp `time_at`,
-          `get_balance` must reflect the account balance **after** the
-          query has been processed.
-          * If the account was merged into another account, the merged
-          account should inherit its balance history.
+        Returns the total amount of money in an account at the given timestamp 
+        `time_at`. Resolves queries dealing with merged accounts and combined
+        transaction histories.
+
+        Make a balance query based on merged account IDs that may be 
+        deprecated. Performs a binary search to find the closest, passed
+        timestamp to `time_at` to query balance from.
+
+        Parameters
+        ----------
+        timestamp: int 
+            Timestamp of query.
+        account_id: str 
+            Account from which balance is queried from.
+        time_at: int
+            Time of requested query.
+
+        Returns
+        ----------
+        query: int
+            Balance of account at `time_at`.
+        None
+            If account does not exist.
         """
 
-        print(f"Debug: Calling get_balance for account {account_id} at time {time_at} (current timestamp: {timestamp})")
+        #print(f"Debug: Calling get_balance for account {account_id} at time {time_at} (current timestamp: {timestamp})")
 
         self.process_cashback(timestamp)
 
@@ -383,19 +470,19 @@ class BankingSystemImpl(BankingSystem):
                 # find the timestamp of the merge
                 merge_time = merge[0][0] if merge else None
 
-                print(f"Debug: New account ID for merged account {account_id} is {new_account_id}")
-                print(f"History for new account {new_account_id}: {new_history}")       
+                #print(f"Debug: New account ID for merged account {account_id} is {new_account_id}")
+                #print(f"History for new account {new_account_id}: {new_history}")       
 
                 # if the merge happened after the time we are querying, we want to access the old id for the result
                 if merge_time > time_at:
-                    print(f"Merge happened at {merge_time}, which is after {time_at}. Querying old account {target_account_id}.")
+                    #print(f"Merge happened at {merge_time}, which is after {time_at}. Querying old account {target_account_id}.")
 
                     query = self.balance_query(timestamp, new_account_id, time_at, target_account=target_account_id)
                     return query
 
                 # if the merge happened before the time we are querying, then we are looking at shared history, and the merged account ID does not have this history anymore. 
                 else: 
-                    print(f"Merge happened at {merge_time}, which is before {time_at}.")
+                    #print(f"Merge happened at {merge_time}, which is before {time_at}.")
                     return None
 
         # if the account ID is found in self.accounts, then it is not an account that has been merged with others 
@@ -415,11 +502,10 @@ class BankingSystemImpl(BankingSystem):
             if not account_history:
                 return None
             
-            print(f"Debug: Found account {account_id}. Full history: {self.accounts[account_id]}")
-            print(f"Querying account {account_id} at time {time_at} for balance.")
+            #print(f"Debug: Found account {account_id}. Full history: {self.accounts[account_id]}")
+            #print(f"Querying account {account_id} at time {time_at} for balance.")
             
             # query
             query = self.balance_query(timestamp, account_id, time_at, target_account=account_id)
 
             return query
-    

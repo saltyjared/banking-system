@@ -1,6 +1,5 @@
 from abc import ABC
 
-
 class BankingSystem(ABC):
     """
     `BankingSystem` interface.
@@ -41,6 +40,7 @@ class BankingSystem(ABC):
           * Returns `None` if account `source_account_id` has 
           insufficient funds to perform the transfer.
         """
+        # default implementation
         return None
 
 
